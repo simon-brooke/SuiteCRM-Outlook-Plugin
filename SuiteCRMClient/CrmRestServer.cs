@@ -260,6 +260,7 @@ namespace SuiteCRMClient
 
         private HttpWebRequest CreatePostRequest(string requestUrl, byte[] bytes, string contentTypeAndEncoding)
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             var request = WebRequest.Create(requestUrl) as HttpWebRequest;
 
             request.Method = "POST";
