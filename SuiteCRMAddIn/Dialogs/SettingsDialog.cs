@@ -334,28 +334,14 @@ namespace SuiteCRMAddIn.Dialogs
 
         private void btnTestLogin_Click(object sender, EventArgs e)
         {
-            using (WaitCursor.For(this))
+            if (ValidateDetails())
             {
-                if (ValidateDetails())
+                try
                 {
-                    try
+                    this.CheckUrlChanged(false);
+
+                    using (WaitCursor.For(this))
                     {
-                        this.CheckUrlChanged(false);
-
-                        if (SafelyGetText(txtLDAPAuthenticationKey) == string.Empty)
-                        {
-                            txtLDAPAuthenticationKey.Text = null;
-                        }
-                        Globals.ThisAddIn.SuiteCRMUserSession =
-                            new SuiteCRMClient.UserSession(
-                                SafelyGetText(txtURL),
-                                SafelyGetText(txtUsername),
-                                SafelyGetText(txtPassword),
-                                SafelyGetText(txtLDAPAuthenticationKey),
-                                ThisAddIn.AddInTitle,
-                                Log,
-                                Properties.Settings.Default.RestTimeout);
-
                         if (chkEnableLDAPAuthentication.Checked && SafelyGetText(txtLDAPAuthenticationKey).Length != 0)
                         {
                             Globals.ThisAddIn.SuiteCRMUserSession.AuthenticateLDAP();
@@ -364,27 +350,28 @@ namespace SuiteCRMAddIn.Dialogs
                         {
                             Globals.ThisAddIn.SuiteCRMUserSession.Login();
                         }
-                        if (Globals.ThisAddIn.SuiteCRMUserSession.NotLoggedIn)
-                        {
-                            MessageBox.Show("Authentication failed!!!", "Authentication failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            return;
-                        }
-                        else
-                        {
-                            MessageBox.Show("Login Successful!!!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        }
-                        Properties.Settings.Default.Host = SafelyGetText(txtURL);
-                        Properties.Settings.Default.Username = SafelyGetText(txtUsername);
-                        Properties.Settings.Default.Password = SafelyGetText(txtPassword);
                     }
-                    catch (Exception ex)
+                    if (Globals.ThisAddIn.SuiteCRMUserSession.NotLoggedIn)
                     {
-                        Log.Error("Unable to connect to SuiteCRM", ex);
-                        MessageBox.Show(ex.Message, "Unable to connect to SuiteCRM", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Authentication failed!", "Authentication failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
                     }
+                    else
+                    {
+                        MessageBox.Show("Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                    Properties.Settings.Default.Host = SafelyGetText(txtURL);
+                    Properties.Settings.Default.Username = SafelyGetText(txtUsername);
+                    Properties.Settings.Default.Password = SafelyGetText(txtPassword);
+                }
+                catch (Exception ex)
+                {
+                    Log.Error("Unable to connect to SuiteCRM", ex);
+                    MessageBox.Show(ex.Message, "Unable to connect to SuiteCRM", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
+
         private void cbShowCustomModules_Click(object sender, EventArgs e)
         {
             if (cbShowCustomModules.Checked)

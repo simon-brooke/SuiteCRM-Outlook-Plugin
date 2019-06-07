@@ -69,6 +69,7 @@ namespace SuiteCRMClient
         {
             try
             {
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 HttpWebRequest request = CreateCrmRestRequest(method, input);
                 string response = GetResponseString(request);
 #if DEBUG
@@ -96,6 +97,7 @@ namespace SuiteCRMClient
         {
             try
             {
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 HttpWebRequest request = CreateCrmRestRequest(method, input);
                 string jsonResponse = GetResponseString(request);
 #if DEBUG
