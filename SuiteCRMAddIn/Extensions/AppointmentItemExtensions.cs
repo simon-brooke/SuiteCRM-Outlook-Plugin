@@ -216,7 +216,7 @@ namespace SuiteCRMAddIn.Extensions
 #if DEBUG
                 else
                 {
-                    // Bad format!!!
+                    // Bad format!
                     Globals.ThisAddIn.Log.Debug($"Failed to find vCal-Uid in GlobalAppointmentId '{Encoding.UTF8.GetString(bytes)}' in appointment '{item.Subject}'");
                 }
 #endif
