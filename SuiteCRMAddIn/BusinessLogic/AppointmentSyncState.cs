@@ -127,7 +127,12 @@ namespace SuiteCRMAddIn.BusinessLogic
                 if (appt != null)
                 {
                     appt.Duration = dz.Duration;
-                }
+
+                    if (this is MeetingSyncState)
+                    {
+                        Globals.ThisAddIn.MeetingsSynchroniser.LogItemAction(appt, $"DurationSetToZeroException: After resetting duration to {dz.Duration}");
+                    }
+                }                
 
                 result = false;
             }

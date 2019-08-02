@@ -67,13 +67,17 @@ namespace SuiteCRMAddIn.Daemon
                 ILogger log = Globals.ThisAddIn.Log;
                 try
                 {
-                    switch (meeting.Cache.Status) {
-                        case Outlook.OlMeetingStatus.olMeetingCanceled:
-                            log.Info($"TransmitUpdateAction: registered meeting {state.Description} cancelled");
-                            break;
-                        case Microsoft.Office.Interop.Outlook.OlMeetingStatus.olMeetingReceivedAndCanceled:
-                            log.Info($"TransmitUpdateAction: registered meeting {state.Description} received and cancelled");
-                            break;
+                    if (meeting.Cache != null)
+                    {
+                        switch (meeting.Cache.Status)
+                        {
+                            case Outlook.OlMeetingStatus.olMeetingCanceled:
+                                log.Info($"TransmitUpdateAction: registered meeting {state.Description} cancelled");
+                                break;
+                            case Microsoft.Office.Interop.Outlook.OlMeetingStatus.olMeetingReceivedAndCanceled:
+                                log.Info($"TransmitUpdateAction: registered meeting {state.Description} received and cancelled");
+                                break;
+                        }
                     }
                 }
                 catch (COMException comx)

@@ -596,6 +596,8 @@ namespace SuiteCRMAddIn.BusinessLogic
                         .Append($"\n\tSubject     : '{olItem.Subject}'")
                         .Append($"\n\tSensitivity : {olItem.Sensitivity}")
                         .Append($"\n\tStatus      : {olItem.MeetingStatus}")
+                        .Append($"\n\tStart       : {olItem.Start}")
+                        .Append($"\n\tDuration    : {olItem.Duration}")
                         .Append($"\n\tReminder set: {olItem.ReminderSet}")
                         .Append($"\n\tOrganiser   : {olItem.Organizer}")
                         .Append($"\n\tOutlook User: {Globals.ThisAddIn.Application.GetCurrentUsername()}")
@@ -1022,8 +1024,9 @@ namespace SuiteCRMAddIn.BusinessLogic
 
                 var minutes = string.IsNullOrWhiteSpace(minutesString) ? 0 : int.Parse(minutesString);
                 var hours = string.IsNullOrWhiteSpace(hoursString) ? 0 : int.Parse(hoursString);
+                var duration = minutes + (hours * 60);
 
-                olItem.Duration = minutes + hours * 60;
+                olItem.Duration = duration;
             }
 
             finally

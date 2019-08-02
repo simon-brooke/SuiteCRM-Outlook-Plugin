@@ -85,7 +85,7 @@ namespace SuiteCRMAddIn.BusinessLogic
                 if (cached != null && cached.Duration != current.Duration && current.Duration == 0)
                 {
                     Globals.ThisAddIn.Log.Warn(
-                        $"Meeting id {this.OutlookItemEntryId} (CRM id {this.CrmEntryId}) changed to zero duration");
+                        $"Meeting id {this.OutlookItemEntryId} (CRM id {this.CrmEntryId}) changed to zero duration; cached duration is {cached.Duration}.");
                     throw new DurationSetToZeroException(cached.Duration);
                 }
             }
