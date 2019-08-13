@@ -130,15 +130,18 @@ namespace SuiteCRMAddIn.BusinessLogic
                             var existing =
                                 SyncStateManager.Instance.GetExistingSyncState(string.Empty, crmId) as AppointmentSyncState;
 
-                            /* we have an existing item with the same CRM id: suspicious */
-                            var fromVcal = existing.OutlookItem.GetVCalId();
-
-                            if (existing != null && !string.IsNullOrEmpty(fromVcal) && fromVcal != crmId.ToString())
+                            if (existing != null)
                             {
-                                /* OK, its GlobalAppointmentId is wrong, it must have come via sync. Delete it. */
-                                Log.Debug(
-                                    $"Apparent case of item synced from CRM and then received via email/vCal. CRM id is {crmId}. Deleting bad copy.");
-                                RemoveItemAndSyncState(existing);
+                                /* we have an existing item with the same CRM id: suspicious */
+                                var fromVcal = existing.OutlookItem.GetVCalId();
+
+                                if (!string.IsNullOrEmpty(fromVcal) && fromVcal != crmId.ToString())
+                                {
+                                    /* OK, its GlobalAppointmentId is wrong, it must have come via sync. Delete it. */
+                                    Log.Debug(
+                                        $"Apparent case of item synced from CRM and then received via email/vCal. CRM id is {crmId}. Deleting bad copy.");
+                                    RemoveItemAndSyncState(existing);
+                                }
                             }
                         }
 
@@ -170,6 +173,13 @@ namespace SuiteCRMAddIn.BusinessLogic
                     var crmId = olItem.GetCrmId();
                     Log.Debug($"OutlookItemChanged: entry, CRM id = {crmId}; Outlook ID = {olItem.EntryID}");
 
+                    // #6034b. Do not trust this code - I am writing it 
+                    // while ill, it is not up to usual standard.
+                    if (olItem.Duration == 0 && olItem.MeetingStatus == OlMeetingStatus.olMeeting)
+                    {
+                        this.CheckForSpuriousDurationChange(olItem);
+                    }
+
                     if (olItem.IsCall())
                         base.OutlookItemChanged(olItem, Globals.ThisAddIn.CallsSynchroniser);
                     else
@@ -189,6 +199,34 @@ namespace SuiteCRMAddIn.BusinessLogic
             else
                 Log.Warn(
                     $"Synchroniser.OutlookItemAdded: item {GetOutlookEntryId(olItem)} not updated because not licensed");
+        }
+
+        /// <summary>
+        /// #6304b: Something (we don't really know what) is causing meeting durations
+        /// to be set to zero; the correct solution would be to fix the cause, but this
+        /// attempts to mask the symptoms.
+        /// </summary>
+        /// <param name="olItem">An Outlook item whose duration has been set to zero.</param>
+        private void CheckForSpuriousDurationChange(AppointmentItem olItem)
+        {
+            if (olItem.Duration == 0)
+            {
+                this.LogItemAction(olItem, "Apparently-spurious zero duration: attempting to recover");
+
+                var state = SyncStateManager.Instance.GetExistingSyncState<AppointmentItem>(olItem);
+
+                if (state != null)
+                {
+                    var cache = state?.Cache
+                        as ProtoAppointment<MeetingSyncState>;
+
+                    if (cache != null)
+                    {
+                        olItem.Duration = cache.Duration;
+                        this.LogItemAction(olItem, $"Apparently-spurious zero duration: reset to {cache.Duration}");
+                    }
+                }
+            }
         }
 
         protected override void SaveItem(AppointmentItem olItem)
