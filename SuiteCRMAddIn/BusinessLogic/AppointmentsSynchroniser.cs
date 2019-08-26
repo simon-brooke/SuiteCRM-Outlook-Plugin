@@ -675,50 +675,60 @@ namespace SuiteCRMAddIn.BusinessLogic
 
             if (dateStart >= GetStartDate())
             {
-                /* search for the item among the sync states I already know about */
-                if (existing == null)
-                {
-                    /* check for howlaround */
-                    var matches = FindMatches(crmItem);
+                this.CheckForSpuriousDurationChange(result.OutlookItem);
 
-                    if (!matches.Any())
+                /* don't transmit if duration zero. #6034 */
+                if (result.OutlookItem.Duration > 0)
+                {
+                    /* search for the item among the sync states I already know about */
+                    if (existing == null)
                     {
-                        /* didn't find it, so add it to Outlook */
-                        result = AddNewItemFromCrmToOutlook(folder, crmType, crmItem, dateStart);
-                    }
-                    else
-                    {
-                        var withoutCrmId = matches.Where(x => CrmId.IsInvalid(x.CrmEntryId)).ToList();
-                        var crmId = CrmId.Get(crmItem.id);
-                        if (withoutCrmId.Any())
+                        /* check for howlaround */
+                        var matches = FindMatches(crmItem);
+
+                        if (!matches.Any())
                         {
-                            result = withoutCrmId.ElementAt(0) as SyncStateType;
-                            if (result != null)
-                            {
-                                result.CrmEntryId = crmId;
-                                result.OutlookItem.SetCrmId(crmId);
-                                UpdateExistingOutlookItemFromCrm(crmType, crmItem, dateStart, result);
-                            }
+                            /* didn't find it, so add it to Outlook */
+                            result = AddNewItemFromCrmToOutlook(folder, crmType, crmItem, dateStart);
                         }
                         else
                         {
-                            result = matches.ElementAt(0) as SyncStateType;
-                            Log.Warn(
-                                $"Howlaround detected? Appointment '{crmItem.GetValueAsString("name")}' offered with id {crmId}, expected {matches[0].CrmEntryId}, {matches.Count} duplicates");
+                            var withoutCrmId = matches.Where(x => CrmId.IsInvalid(x.CrmEntryId)).ToList();
+                            var crmId = CrmId.Get(crmItem.id);
+                            if (withoutCrmId.Any())
+                            {
+                                result = withoutCrmId.ElementAt(0) as SyncStateType;
+                                if (result != null)
+                                {
+                                    result.CrmEntryId = crmId;
+                                    result.OutlookItem.SetCrmId(crmId);
+                                    UpdateExistingOutlookItemFromCrm(crmType, crmItem, dateStart, result);
+                                }
+                            }
+                            else
+                            {
+                                result = matches.ElementAt(0) as SyncStateType;
+                                Log.Warn(
+                                    $"Howlaround detected? Appointment '{crmItem.GetValueAsString("name")}' offered with id {crmId}, expected {matches[0].CrmEntryId}, {matches.Count} duplicates");
+                            }
                         }
                     }
-                }
-                else if (result != null)
-                {
-                    /* found it, so update it from the CRM item */
-                    UpdateExistingOutlookItemFromCrm(crmType, crmItem, dateStart, result);
+                    else if (result != null)
+                    {
+                        /* found it, so update it from the CRM item */
+                        UpdateExistingOutlookItemFromCrm(crmType, crmItem, dateStart, result);
+                    }
+                    else
+                    {
+                        throw new UnexpectedSyncStateClassException($"{GetType().Name}", existing);
+                    }
+
+                    existing?.SaveItem();
                 }
                 else
                 {
-                    throw new UnexpectedSyncStateClassException($"{GetType().Name}", existing);
+                    this.LogItemAction(result.OutlookItem, "Item not transmitted to SCM because duration is zero");
                 }
-
-                existing?.SaveItem();
             }
 
             return result;
