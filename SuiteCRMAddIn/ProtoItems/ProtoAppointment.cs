@@ -193,7 +193,14 @@ namespace SuiteCRMAddIn.ProtoItems
                  * bytes are those that vary between examples, with the most significant bytes 
                  * being invariant in the samples we have to hand. */
                 CrmEntryId = CrmId.Get(new Guid(this.globalId.Substring(this.globalId.Length - 32)));
-                data.Add(RestAPIWrapper.SetNameValuePair("new_with_id", true));
+
+                /* check for certain that that id doesn't exist server side: if it does, 
+                 * it almost certainly is this item; however, if not, we're `new_with_id`. */
+                if (RestAPIWrapper.GetEntry(MeetingsSynchroniser.CrmModule,
+                    CrmEntryId.ToString(), new string[] { "id" }) == null)
+                {
+                    data.Add(RestAPIWrapper.SetNameValuePair("new_with_id", true));
+                }
             }
 
             data.Add(RestAPIWrapper.SetNameValuePair("id", CrmEntryId.ToString()));

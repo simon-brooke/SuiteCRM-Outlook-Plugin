@@ -43,6 +43,11 @@ namespace SuiteCRMClient.Logging
                     error.ToString() + "\n" +
                     "Data:" + error.Data + "\n" +
                     "HResult:" + error.HResult);
+                for (error = error.InnerException; error != null; error = error.InnerException)
+                {
+                    log?.SafeLog(LogEntryType.Error,
+                        $"... caused by {error.Message}");
+                }
             }
         }
 
