@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.Daemon.DaemonWorker" name="SuiteCRMAddIn.Daemon.DaemonWorker">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html" title="An agent which does something repeatedly. " alt="" coords="52,171,181,197"/>
+<area shape="rect" id="node3" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html" title="Interface implemented by all logging classes " alt="" coords="10,81,223,108"/>
+</map>

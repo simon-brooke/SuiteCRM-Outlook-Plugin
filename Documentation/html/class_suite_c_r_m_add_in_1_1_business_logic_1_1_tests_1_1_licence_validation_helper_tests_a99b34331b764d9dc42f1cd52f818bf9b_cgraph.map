@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Tests.LicenceValidationHelperTests.LicenceValidationHelperValidateTest" name="SuiteCRMAddIn.BusinessLogic.Tests.LicenceValidationHelperTests.LicenceValidationHelperValidateTest">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_licence_validation_helper.html#afbc91cc3a89487a4f8a4d737adbab0c4" title="Validate my key pair. " alt="" coords="289,39,503,80"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1_rest_service.html#ad6cb4f467cdb22cab295b9e658723416" title="Create an HTTP &#39;GET&#39; request by appending thise name/value pairs to my base URL. " alt="" coords="561,5,758,47"/>
+<area shape="rect" id="node4" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html#a44f8657cd9107b8401fb762c0d9ad1ab" title="Adds this message to the log, and displays it in a dialog box. " alt="" coords="551,71,768,112"/>
+</map>

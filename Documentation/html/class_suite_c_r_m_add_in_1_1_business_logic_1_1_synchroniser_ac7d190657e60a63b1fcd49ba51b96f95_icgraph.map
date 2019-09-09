@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser.AddOrUpdateItemFromOutlookToCrm" name="SuiteCRMAddIn.BusinessLogic.Synchroniser.AddOrUpdateItemFromOutlookToCrm">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a483e9fe3f7b8356dd85b53d7d4014f50" title="Given a list of items which exist in Outlook but are missing from CRM, resolve how to handle them..." alt="" coords="291,5,523,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_transmit_new_action.html#a55790387c92492d415f9745f35977082" title="Perform this action. " alt="" coords="294,85,519,126"/>
+</map>

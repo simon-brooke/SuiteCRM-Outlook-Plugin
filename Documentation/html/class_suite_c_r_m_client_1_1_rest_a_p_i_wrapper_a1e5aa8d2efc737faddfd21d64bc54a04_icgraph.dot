@@ -1,0 +1,11 @@
+digraph "SuiteCRMClient.RestAPIWrapper.GetRelationship"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node140 [label="SuiteCRMClient.RestAPIWrapper.\lGetRelationship",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node140 -> Node141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node141 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.SetOutlook\lRecipientsFromCRM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a2d11d345708fd85c9eabc30f862b8238",tooltip="Set up the recipients of the appointment represented by this olItem from this crmItem. "];
+  Node141 -> Node142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node142 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.UpdateOutlook\lDetails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a8f0c99c95424ef0b2514bd3dfccda977"];
+}

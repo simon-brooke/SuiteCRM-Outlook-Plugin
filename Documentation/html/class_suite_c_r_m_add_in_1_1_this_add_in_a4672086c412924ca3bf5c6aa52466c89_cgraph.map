@@ -1,0 +1,13 @@
+<map id="SuiteCRMAddIn.ThisAddIn.StartSynchronisationProcesses" name="SuiteCRMAddIn.ThisAddIn.StartSynchronisationProcesses">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1807d77e723339e933844895c68b3b4f" title="If I am not currently running, set me running. " alt="" coords="259,136,469,177"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a3d3136423943e3e4f71d3ea2b1062147" title="SuiteCRMAddIn.ThisAddIn.\lManualArchive" alt="" coords="272,201,456,243"/>
+<area shape="rect" id="node11" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a241a0e53ef17a70dfa4b991bce8df910" title="SuiteCRMAddIn.ThisAddIn.\lShowSettingsForm" alt="" coords="551,345,735,387"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8052836bf64ac24c9334d6ac28ec967e" title="SuiteCRMAddIn.ThisAddIn.\lShowArchiveForm" alt="" coords="551,5,735,47"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1_user_session.html#a61cf62b4a67202acf08a834cbe44c5ab" title="The documentation at http://support.sugarcrm.com/Documentation/Sugar_Developer/Sugar_Developer_Guide_..." alt="" coords="543,71,743,112"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#aa335ddd9d301cfa4c127e795ec5beeb5" title="Prepare to shutdown all running processes. " alt="" coords="517,136,768,177"/>
+<area shape="rect" id="node10" href="$class_suite_c_r_m_add_in_1_1_ribbon_image_helper.html#ab6c37f7066ccafd90143fe3803cb3c8b" title="SuiteCRMAddIn.RibbonImage\lHelper.Convert" alt="" coords="543,201,742,243"/>
+<area shape="rect" id="node12" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a28d7941e33b094c344e5691a1a6be644" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.ProcessEligibleNew\lMailItem" alt="" coords="527,266,758,322"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a75baab6367c7ce36a63695d23a646c95" title="Put me into a mode where I finish all the work I have to do quickly. " alt="" coords="816,103,1052,144"/>
+<area shape="rect" id="node9" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1484b532908abdfad6640cc758cd2f37" title="Stop me at the end of my current iteration; does not force an immediate stop unless no work is curren..." alt="" coords="829,168,1039,209"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a13a459becdd7115fdd3af289318e74b7" title="Do whatever it is I do, once. " alt="" coords="1100,103,1327,144"/>
+</map>

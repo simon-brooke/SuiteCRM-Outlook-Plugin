@@ -1,0 +1,11 @@
+digraph "SuiteCRMAddIn.Extensions.TaskItemExtensions.GetCrmId"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="SuiteCRMAddIn.Extensions.\lTaskItemExtensions.GetCrmId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a4c42d534f0f83aa65403c2c8e06dc5d1",tooltip="Get the single CrmId instance for this value. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a753d936c4867f81d95032490ff89cd48",tooltip="Validates a CRM id. "];
+}

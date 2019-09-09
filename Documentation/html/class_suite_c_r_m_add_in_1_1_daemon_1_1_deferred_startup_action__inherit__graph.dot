@@ -1,0 +1,10 @@
+digraph "SuiteCRMAddIn.Daemon.DeferredStartupAction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="SuiteCRMAddIn.Daemon.Deferred\lStartupAction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="AbstractDaemonAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_daemon_1_1_abstract_daemon_action.html",tooltip="The Attempts/MaxAttempts plumbing for implementing a DaemonAction. Of course, you do not need to spec..."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DaemonAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_suite_c_r_m_add_in_1_1_daemon_1_1_daemon_action.html",tooltip="An action to be queued and performed by the DaemonWorker."];
+}

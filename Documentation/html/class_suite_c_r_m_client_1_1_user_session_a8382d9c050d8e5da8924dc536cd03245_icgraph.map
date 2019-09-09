@@ -1,0 +1,6 @@
+<map id="SuiteCRMClient.UserSession.Login" name="SuiteCRMClient.UserSession.Login">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_settings_dialog.html#a55bf341eb6cf34acaa004c221719b4ba" title="SuiteCRMAddIn.Dialogs.Settings\lDialog.SettingsDialog" alt="" coords="265,5,483,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#aee77aec45c87898261c4ca5f91ae2476" title="SuiteCRMAddIn.ThisAddIn.\lAuthenticate" alt="" coords="282,71,466,112"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a904c9976d221e646adedb16b93a7bd74" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="253,136,495,177"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a7079a786abcf4e8a54fe271e79838ff1" title="SuiteCRMAddIn.ThisAddIn.\lSuiteCRMAuthenticate" alt="" coords="543,71,727,112"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.GetModulesHavingEmailRelationships" name="SuiteCRMClient.clsSuiteCRMHelper.GetModulesHavingEmailRelationships">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#afd19c20b8c3d82655e35d46d7829197f" title="Get the list of modules installed in the connected CRM instance, with their associated access control..." alt="" coords="588,5,829,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#af93c5906c64452ae63b6c12891f861bc" title="SuiteCRMClient.clsSuiteCRMHelper.\lGetFields" alt="" coords="299,68,540,109"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="877,39,1119,80"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aae0adc545d51a81ed1297ceaa8b1522a" title="Get the module fields data for the module with this name, if any. " alt="" coords="588,71,829,112"/>
+</map>

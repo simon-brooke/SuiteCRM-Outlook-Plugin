@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.FileLogger" name="SuiteCRMAddIn.FileLogger">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_logging_1_1_abstract_logger.html" title="Provides a common implementation of ShowAndAddEntry for implementations of ILogger. " alt="" coords="41,155,151,181"/>
+<area shape="rect" id="node3" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html" title="Interface implemented by all logging classes " alt="" coords="63,80,129,107"/>
+</map>

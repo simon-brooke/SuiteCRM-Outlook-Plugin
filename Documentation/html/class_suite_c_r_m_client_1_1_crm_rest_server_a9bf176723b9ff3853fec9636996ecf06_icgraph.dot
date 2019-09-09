@@ -1,0 +1,11 @@
+digraph "SuiteCRMClient.CrmRestServer.GetCrmStringResponse"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="SuiteCRMClient.CrmRestServer.\lGetCrmStringResponse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SuiteCRMClient.RestAPIWrapper.\lMySqlEscape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a862c92dd03b3ebf44d7ef75c230d55b1",tooltip="Create and return a copy of this string which escapes all characters which might render MySQL vulnera..."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.SearchQuery.SearchQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog_1_1_search_query.html#ae4ceb37e64a28f94b39a952743de4dff",tooltip="Construct a new instance of a search query. "];
+}

@@ -1,0 +1,21 @@
+digraph "SuiteCRMAddIn.BusinessLogic.TaskSynchroniser.ConstructAndDespatchCrmItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.ConstructAndDespatch\lCrmItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a4c42d534f0f83aa65403c2c8e06dc5d1",tooltip="Get the single CrmId instance for this value. "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a753d936c4867f81d95032490ff89cd48",tooltip="Validates a CRM id. "];
+  Node15 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SuiteCRMClient.RestAPIWrapper.\lSetEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#ad68d42762e45541a293986a208c20656",tooltip="Sets an entry in CRM and returns the id. "];
+  Node15 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.AsNameValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#a6c51bb46d6096970a17edbd0857e7fac",tooltip="Construct a name value list (to be serialised as JSON) representing this task. "];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SuiteCRMClient.RestAPIWrapper.\lSetNameValuePair",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a7d8a3f489c3f14462f6a6732939e95be"];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#ae8a022a1d7034b495864a55ede1e0e72",tooltip="Validates a CRM id. "];
+  Node19 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="SuiteCRMClient.RestAPIWrapper.\lGetUserId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#ab65492277e036bce9aff5361e64cb8fc",tooltip="Return the CRM id of the current user. "];
+}

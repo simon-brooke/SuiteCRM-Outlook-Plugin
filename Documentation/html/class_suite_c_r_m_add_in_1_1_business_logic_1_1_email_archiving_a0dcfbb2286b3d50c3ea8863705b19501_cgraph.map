@@ -1,0 +1,8 @@
+<map id="SuiteCRMAddIn.BusinessLogic.EmailArchiving.ArchiveEmailWithEntityRelationships" name="SuiteCRMAddIn.BusinessLogic.EmailArchiving.ArchiveEmailWithEntityRelationships">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_email_1_1_archive_result.html#acdd4c7fbb608c683a25bb71e53c04481" title="SuiteCRMClient.Email.Archive\lResult.Success" alt="" coords="298,5,501,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a0e634b04d9750379118745f192d75a53" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.CreateEmailRelationship\lOrFail" alt="" coords="271,70,528,126"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#afdded880e1ddaad804a69c8789c8d268" title="The protocols for how link fields are named vary. Try the most likely two possibilities, and log failures. " alt="" coords="576,77,817,119"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a54a65e000ff00bb87a5e8bf5e2ef8d43" title="Find the fields, among the fields of this module, which are links and where the name of the relations..." alt="" coords="865,77,1107,119"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aae0adc545d51a81ed1297ceaa8b1522a" title="Get the module fields data for the module with this name, if any. " alt="" coords="1155,77,1396,119"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="1444,77,1685,119"/>
+</map>

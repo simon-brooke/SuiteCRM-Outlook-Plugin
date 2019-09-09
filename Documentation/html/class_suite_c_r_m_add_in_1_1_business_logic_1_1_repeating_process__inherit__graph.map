@@ -1,0 +1,6 @@
+<map id="SuiteCRMAddIn.BusinessLogic.RepeatingProcess" name="SuiteCRMAddIn.BusinessLogic.RepeatingProcess">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_c_r_m_permissions_cache.html" title="Cache of CRM import/export permissions, flushed hourly. " alt="" coords="264,5,511,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html" title="The agent which handles the automatic and manual archiving of emails. " alt="" coords="282,85,493,126"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html" title="Synchronise items of the class for which I am responsible. " alt="" coords="276,150,499,191"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_daemon_worker.html" title="A thing which maintains a queue of tasks (instances of DaemonAction) and executes them in turn..." alt="" coords="276,215,499,257"/>
+</map>

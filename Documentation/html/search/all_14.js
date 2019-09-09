@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['validate',['Validate',['../class_suite_c_r_m_add_in_1_1_helpers_1_1_licence_validation_helper.html#ad940fcca799f5eb17338aa71ee8a3753',1,'SuiteCRMAddIn::Helpers::LicenceValidationHelper']]],
+  ['validated',['validated',['../class_suite_c_r_m_add_in_1_1_helpers_1_1_licence_validation.html#adde5686ffd42ccd119dbc2f4227d77ed',1,'SuiteCRMAddIn::Helpers::LicenceValidation']]],
+  ['value',['Value',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id_validation_policy.html#ab567701d7b6f3899ca6a721beddd1a11',1,'SuiteCRMAddIn.BusinessLogic.CrmIdValidationPolicy.Value()'],['../class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_name_value.html#a9ad534ee824d9efb4ff52b07350aed55',1,'SuiteCRMClient.RESTObjects.NameValue.value()']]],
+  ['verifyitem',['VerifyItem',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_sync_state.html#adddbb6eb161b0a14041c73cecd722cea',1,'SuiteCRMAddIn.BusinessLogic.AppointmentSyncState.VerifyItem()'],['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_sync_state.html#a02994b5da1bfce4f0e0313ec4543fc8b',1,'SuiteCRMAddIn.BusinessLogic.ContactSyncState.VerifyItem()'],['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state.html#a4756c21f3687fd832e12e06320de61d2',1,'SuiteCRMAddIn.BusinessLogic.SyncState.VerifyItem()'],['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_sync_state.html#ac8f66b5b701d1f461cf7fe4a1a16b268',1,'SuiteCRMAddIn.BusinessLogic.TaskSyncState.VerifyItem()']]]
+];

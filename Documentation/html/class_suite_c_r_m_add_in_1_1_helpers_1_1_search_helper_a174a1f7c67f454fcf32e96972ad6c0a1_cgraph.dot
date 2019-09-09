@@ -1,0 +1,15 @@
+digraph "SuiteCRMAddIn.Helpers.SearchHelper.SearchContacts"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="SuiteCRMAddIn.Helpers.Search\lHelper.SearchContacts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SuiteCRMAddIn.Helpers.Search\lHelper.Search",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_helpers_1_1_search_helper.html#ab98328dc340c32aaf12603c7546e7832"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SuiteCRMClient.RestAPIWrapper.\lGetEntryList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a5822333b659d878ccd356ddcd28d466b",tooltip="Get the specified entries from the specified module. "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SuiteCRMClient.RestAPIWrapper.\lEnsureLoggedIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a47fa9bef59b59f02817a631b33a61a35"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SuiteCRMClient.RESTObjects.\lEntryList.ResolveLinks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_entry_list.html#aa522f65581894273f1e6a6efaed29c2c"];
+}

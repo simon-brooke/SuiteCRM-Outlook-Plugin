@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser.EnsureSynchronisationPropertiesForOutlookItem" name="SuiteCRMAddIn.BusinessLogic.Synchroniser.EnsureSynchronisationPropertiesForOutlookItem">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#aecaeaaae371d340839392edf8d8f396e" title="Add the Outlook item referenced by this sync state, which may not exist in CRM, to CRM..." alt="" coords="289,5,577,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#abfeb55205a9baa610f5b0fa8ad680bd4" title="Set up synchronisation properties for this outlook item from this CRM item, assuming my default CRM m..." alt="" coords="303,86,564,157"/>
+</map>

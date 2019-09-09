@@ -1,0 +1,10 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.GetEntryList" name="SuiteCRMClient.clsSuiteCRMHelper.GetEntryList">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#afd5ae8f863e48a0073ed371402dda938" title="SuiteCRMAddIn.BusinessLogic.\lAppointmentSyncing.GetID" alt="" coords="310,5,521,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#acc7036a95cd34952cf01c774b1fcefc2" title="Fetch records in pages from CRM, and merge them into Outlook. " alt="" coords="299,70,531,126"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1frm_address_book.html#a3f4f6f3af970c21ddfe73c19c93e02d2" title="SuiteCRMAddIn.Dialogs.frm\lAddressBook.frmAddressBook" alt="" coords="315,149,516,191"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a1b2d6e63a13ef6a7a3331a99cbd122e7" title="SuiteCRMAddIn.Dialogs.Archive\lDialog.Search" alt="" coords="309,215,522,256"/>
+<area shape="rect" id="node9" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a2fb1754de95a9142e0e0230403e92ec8" title="SuiteCRMClient.clsSuiteCRMHelper.\lFindAccounts" alt="" coords="295,280,536,321"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a5d2d80bf950c4a4fd241610e65bd4713" title="SuiteCRMAddIn.BusinessLogic.\lAppointmentSyncing.IsMatch" alt="" coords="585,5,796,47"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a3160bc88861f266746f9631068fc9ed7" title="SuiteCRMAddIn.Dialogs.Archive\lDialog.btnSearch_Click" alt="" coords="584,215,797,256"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a1f34c87c999c13b787aab281472014cd" title="Clean up any resources being used. " alt="" coords="845,215,1059,256"/>
+</map>

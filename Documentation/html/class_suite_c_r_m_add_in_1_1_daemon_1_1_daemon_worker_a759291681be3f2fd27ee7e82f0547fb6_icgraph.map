@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.Daemon.DaemonWorker.AddTask" name="SuiteCRMAddIn.Daemon.DaemonWorker.AddTask">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a3c7972ebc9fde19403be4cb526b58898" title="Entry point from event handler when an item is added in Outlook. " alt="" coords="276,5,508,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a39a299e28dff602fec9c2291328e27d4" title="Entry point from event handler, called when an Outlook item of class AppointmentItem is believed to h..." alt="" coords="276,85,508,141"/>
+</map>

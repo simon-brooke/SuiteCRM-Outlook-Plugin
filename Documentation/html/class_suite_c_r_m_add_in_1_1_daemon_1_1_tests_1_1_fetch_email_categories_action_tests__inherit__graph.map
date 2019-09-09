@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.Daemon.Tests.FetchEmailCategoriesActionTests" name="SuiteCRMAddIn.Daemon.Tests.FetchEmailCategoriesActionTests">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_tests_1_1_abstract_with_crm_connection_test.html" title="Abstract superclass for a test class which needs a CRM connection. " alt="" coords="9,80,223,107"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_tests_1_1_with_logger_tests.html" title="An abstract superclass for test classes which need a logger. " alt="" coords="55,5,177,32"/>
+</map>

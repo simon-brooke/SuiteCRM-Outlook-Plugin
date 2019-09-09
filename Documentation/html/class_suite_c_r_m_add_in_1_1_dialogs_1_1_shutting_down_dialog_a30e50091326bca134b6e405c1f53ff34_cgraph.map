@@ -1,0 +1,6 @@
+<map id="SuiteCRMAddIn.Dialogs.ShuttingDownDialog.ShuttingDownDialog" name="SuiteCRMAddIn.Dialogs.ShuttingDownDialog.ShuttingDownDialog">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#aa335ddd9d301cfa4c127e795ec5beeb5" title="Prepare to shutdown all running processes. " alt="" coords="271,39,521,80"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a75baab6367c7ce36a63695d23a646c95" title="Put me into a mode where I finish all the work I have to do quickly. " alt="" coords="569,5,805,47"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1484b532908abdfad6640cc758cd2f37" title="Stop me at the end of my current iteration; does not force an immediate stop unless no work is curren..." alt="" coords="582,71,793,112"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a13a459becdd7115fdd3af289318e74b7" title="Do whatever it is I do, once. " alt="" coords="853,5,1080,47"/>
+</map>

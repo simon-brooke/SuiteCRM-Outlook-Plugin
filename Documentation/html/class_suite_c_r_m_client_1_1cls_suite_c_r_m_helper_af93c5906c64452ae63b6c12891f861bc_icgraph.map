@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.GetFields" name="SuiteCRMClient.clsSuiteCRMHelper.GetFields">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a510c1dedb473b52cb4d3ce9d5761b57b" title="Return only those modules which have relationships to the email module. " alt="" coords="295,13,540,54"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_custom_modules_dialog.html#ad43594486079041890b2cff4f96d3f23" title="Populate this list view with custom modules, marking those saved in my settings as selected..." alt="" coords="588,5,847,61"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_custom_modules_dialog.html#a0690a5a0bafdb53508b3bb0e9743b422" title="SuiteCRMAddIn.Dialogs.Custom\lModulesDialog.CustomModulesDialog" alt="" coords="895,13,1139,54"/>
+</map>

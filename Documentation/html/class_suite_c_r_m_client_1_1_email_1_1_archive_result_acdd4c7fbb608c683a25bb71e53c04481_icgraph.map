@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.Email.ArchiveResult.Success" name="SuiteCRMClient.Email.ArchiveResult.Success">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a0dcfbb2286b3d50c3ea8863705b19501" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.ArchiveEmailWith\lEntityRelationships" alt="" coords="261,5,478,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_extensions_1_1_mail_item_extensions.html#aa5efb0b8cc2e392ab5bbe1f0bdf2d11a" title="Archive this email item to CRM. " alt="" coords="274,85,465,126"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#a15655535c26c46f9526424df0365218b" title="Save my email to CRM, and link it to these contact ids. " alt="" coords="256,150,483,191"/>
+</map>

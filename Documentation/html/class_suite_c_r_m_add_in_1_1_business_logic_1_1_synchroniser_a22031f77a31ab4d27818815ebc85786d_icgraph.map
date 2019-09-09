@@ -1,0 +1,6 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser.GetExistingSyncState" name="SuiteCRMAddIn.BusinessLogic.Synchroniser.GetExistingSyncState">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#ab8a2a620b9cbc2b45e2519c148e9e52e" title="Find the SyncState whose item is this item; if it does not already exist, construct and return it..." alt="" coords="284,5,516,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a7ac6cd84d0926cbe0ac99c1325cbfdd5" title="Get the existing sync state representing this item, if it exists, else null. " alt="" coords="284,85,516,141"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a3c7972ebc9fde19403be4cb526b58898" title="Entry point from event handler when an item is added in Outlook. " alt="" coords="284,165,516,221"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a39a299e28dff602fec9c2291328e27d4" title="Entry point from event handler, called when an Outlook item of class AppointmentItem is believed to h..." alt="" coords="284,245,516,301"/>
+</map>

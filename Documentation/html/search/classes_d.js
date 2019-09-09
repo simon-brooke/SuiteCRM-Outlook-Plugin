@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['searchhelper',['SearchHelper',['../class_suite_c_r_m_add_in_1_1_helpers_1_1_search_helper.html',1,'SuiteCRMAddIn::Helpers']]],
+  ['searchquery',['SearchQuery',['../class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog_1_1_search_query.html',1,'SuiteCRMAddIn::Dialogs::ArchiveDialog']]],
+  ['serverinfo',['ServerInfo',['../class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_server_info.html',1,'SuiteCRMClient::RESTObjects']]],
+  ['setentriesdetailresult',['SetEntriesDetailResult',['../class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_set_entries_detail_result.html',1,'SuiteCRMClient::RESTObjects']]],
+  ['setentryresult',['SetEntryResult',['../class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_set_entry_result.html',1,'SuiteCRMClient::RESTObjects']]],
+  ['setrelationshipparams',['SetRelationshipParams',['../class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_set_relationship_params.html',1,'SuiteCRMClient::RESTObjects']]],
+  ['settings',['Settings',['../class_suite_c_r_m_add_in_1_1_properties_1_1_settings.html',1,'SuiteCRMAddIn.Properties.Settings'],['../class_suite_c_r_m_add_in_tests_1_1_properties_1_1_settings.html',1,'SuiteCRMAddInTests.Properties.Settings'],['../class_suite_c_r_m_client_1_1_properties_1_1_settings.html',1,'SuiteCRMClient.Properties.Settings']]],
+  ['settingsdialog',['SettingsDialog',['../class_suite_c_r_m_add_in_1_1_dialogs_1_1_settings_dialog.html',1,'SuiteCRMAddIn::Dialogs']]],
+  ['shuttingdowndialog',['ShuttingDownDialog',['../class_suite_c_r_m_add_in_1_1_dialogs_1_1_shutting_down_dialog.html',1,'SuiteCRMAddIn::Dialogs']]],
+  ['suitecrmribbon',['SuiteCRMRibbon',['../class_suite_c_r_m_add_in_1_1_suite_c_r_m_ribbon.html',1,'SuiteCRMAddIn']]],
+  ['synccontext',['SyncContext',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_context.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['syncdirection',['SyncDirection',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_direction.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['syncdirectiontests',['SyncDirectionTests',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_tests_1_1_sync_direction_tests.html',1,'SuiteCRMAddIn::BusinessLogic::Tests']]],
+  ['synchroniser',['Synchroniser',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html',1,'SuiteCRMAddIn.BusinessLogic.Synchroniser'],['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html',1,'SuiteCRMAddIn.BusinessLogic.Synchroniser&lt; OutlookItemType, SyncStateType &gt;']]],
+  ['synchroniser_3c_20appointmentitem_2c_20syncstatetype_20_3e',['Synchroniser&lt; AppointmentItem, SyncStateType &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['synchroniser_3c_20outlook_2econtactitem_2c_20contactsyncstate_20_3e',['Synchroniser&lt; Outlook.ContactItem, ContactSyncState &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['synchroniser_3c_20outlook_2etaskitem_2c_20tasksyncstate_20_3e',['Synchroniser&lt; Outlook.TaskItem, TaskSyncState &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['synchroniser_3c_20outlookitemtype_2c_20syncstatetype_20_3e',['Synchroniser&lt; OutlookItemType, SyncStateType &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['syncstate',['SyncState',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state.html',1,'SuiteCRMAddIn.BusinessLogic.SyncState'],['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state.html',1,'SuiteCRMAddIn.BusinessLogic.SyncState&lt; ItemType &gt;']]],
+  ['syncstate_3c_20outlook_2eappointmentitem_20_3e',['SyncState&lt; Outlook.AppointmentItem &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['syncstate_3c_20outlook_2econtactitem_20_3e',['SyncState&lt; Outlook.ContactItem &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['syncstate_3c_20outlook_2etaskitem_20_3e',['SyncState&lt; Outlook.TaskItem &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['syncstate_3c_20outlookitemtype_20_3e',['SyncState&lt; OutlookItemType &gt;',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state.html',1,'SuiteCRMAddIn::BusinessLogic']]],
+  ['syncstatemanager',['SyncStateManager',['../class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state_manager.html',1,'SuiteCRMAddIn::BusinessLogic']]]
+];

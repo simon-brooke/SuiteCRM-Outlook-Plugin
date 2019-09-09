@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.RestService.CreateGetRequest" name="SuiteCRMClient.RestService.CreateGetRequest">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_licence_validation_helper.html#afbc91cc3a89487a4f8a4d737adbab0c4" title="Validate my key pair. " alt="" coords="251,13,464,54"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1_rest_service.html#a6d0b46aa7af3eb53333815366ac73f76" title="Get a response of type T from my base URL by appending these parameters. " alt="" coords="259,78,456,119"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_tests_1_1_licence_validation_helper_tests.html#a99b34331b764d9dc42f1cd52f818bf9b" title="SuiteCRMAddIn.BusinessLogic.\lTests.LicenceValidationHelperTests.\lLicenceValidationHelperValidateTest" alt="" coords="512,5,748,61"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="SuiteCRMAddIn.SuiteCRMRibbon.btnSendAndArchive_Action" name="SuiteCRMAddIn.SuiteCRMRibbon.btnSendAndArchive_Action">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8f019e8cd74b651865a318ef26ceb30f" title="SuiteCRMAddIn.ThisAddIn.\lShowAndLogError" alt="" coords="315,5,499,47"/>
+<area shape="rect" id="node3" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html#a382e4f42b88246eedbe5bf63149a18d6" title="Adds this message to the log. " alt="" coords="299,71,516,112"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a241a0e53ef17a70dfa4b991bce8df910" title="SuiteCRMAddIn.ThisAddIn.\lShowSettingsForm" alt="" coords="315,136,499,177"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8052836bf64ac24c9334d6ac28ec967e" title="SuiteCRMAddIn.ThisAddIn.\lShowArchiveForm" alt="" coords="315,201,499,243"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_robustness.html#a1c4263fa0ac98393772c3dec7d97a0af" title="SuiteCRMAddIn.Robustness.\lDoOrLogError" alt="" coords="310,267,505,308"/>
+</map>

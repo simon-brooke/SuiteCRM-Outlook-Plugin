@@ -1,0 +1,9 @@
+digraph "SuiteCRMAddIn.ThisAddIn.DeferredStartup"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="SuiteCRMAddIn.ThisAddIn.\lDeferredStartup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SuiteCRMAddIn.Daemon.Deferred\lStartupAction.Perform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_daemon_1_1_deferred_startup_action.html#a23a3bb3f4ff4f0265ec9d78600986464",tooltip="Wait until startup deferral period has expired, and then start. "];
+}

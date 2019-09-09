@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser&lt; OutlookItemType &gt;" name="SuiteCRMAddIn.BusinessLogic.Synchroniser&lt; OutlookItemType &gt;">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html" title="An agent which does something repeatedly. " alt="" coords="52,178,181,205"/>
+<area shape="rect" id="node3" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html" title="Interface implemented by all logging classes " alt="" coords="51,81,265,108"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_context.html" title="A bundle of handles onto all the things which are needed to allow synchronisation to take place..." alt="" coords="205,171,415,212"/>
+</map>

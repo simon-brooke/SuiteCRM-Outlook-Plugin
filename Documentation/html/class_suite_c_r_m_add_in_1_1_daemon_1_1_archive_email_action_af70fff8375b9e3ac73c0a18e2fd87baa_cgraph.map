@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.Daemon.ArchiveEmailAction.Perform" name="SuiteCRMAddIn.Daemon.ArchiveEmailAction.Perform">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#a02b20863d021aa8b4c1551277da12cfa" title="Save my email to CRM, if it relates to any valid contacts. " alt="" coords="272,5,499,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#a8432205a44b9dd2f40679ed7d8b73a64" title="Get contact ids of all email addresses in my From, To, or CC fields which are known to CRM and not in..." alt="" coords="547,5,773,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="821,5,1063,47"/>
+</map>

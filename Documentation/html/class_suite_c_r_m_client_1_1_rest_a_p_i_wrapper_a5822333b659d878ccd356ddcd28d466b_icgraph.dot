@@ -1,0 +1,25 @@
+digraph "SuiteCRMClient.RestAPIWrapper.GetEntryList"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node82 [label="SuiteCRMClient.RestAPIWrapper.\lGetEntryList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::GetInvitee\lIdBySmtpAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af8b002babafbe3c21cbd27419ee72e95",tooltip="Get the id of the record with the specified smtpAddress in the module with the specified moduleName..."];
+  Node82 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.GetEntriesPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a4173455a43277ae26f788a596f09a7d2",tooltip="Specialisation: also fetch names and email ids of recipients. "];
+  Node82 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.GetEntriesPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a1c05eaaf56c04964c20bc731c87c085b",tooltip="Fetch the page of entries from this module starting at this offset. "];
+  Node82 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="SuiteCRMAddIn.Dialogs.frm\lAddressBook.frmAddressBook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1frm_address_book.html#a3f4f6f3af970c21ddfe73c19c93e02d2"];
+  Node82 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.SearchQuery.Execute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog_1_1_search_query.html#afbf953bfe93787e6627eaee5417e52a2",tooltip="Execute me on the server. "];
+  Node82 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="SuiteCRMAddIn.Helpers.Search\lHelper.Search",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_helpers_1_1_search_helper.html#ab98328dc340c32aaf12603c7546e7832"];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="SuiteCRMAddIn.Helpers.Search\lHelper.SearchContacts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_helpers_1_1_search_helper.html#a174a1f7c67f454fcf32e96972ad6c0a1"];
+  Node89 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="SuiteCRMAddIn.Dialogs.Manual\lSyncContactForm.ManualSyncContactForm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_manual_sync_contact_form.html#a76691427c37963569813b2e5710e5b9c"];
+  Node82 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="SuiteCRMClient.RestAPIWrapper.\lGetUserId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a44c76b7b9022a54e7dc443f93ea267dd",tooltip="Get the user id of the user with this email address, if any. "];
+}

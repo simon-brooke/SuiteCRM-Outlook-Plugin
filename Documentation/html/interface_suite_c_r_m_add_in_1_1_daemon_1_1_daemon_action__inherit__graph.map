@@ -1,0 +1,7 @@
+<map id="SuiteCRMAddIn.Daemon.DaemonAction" name="SuiteCRMAddIn.Daemon.DaemonAction">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_abstract_daemon_action.html" title="The Attempts/MaxAttempts plumbing for implementing a DaemonAction. Of course, you do not need to spec..." alt="" coords="276,104,499,145"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_archive_email_action.html" title="An action which archives one email. " alt="" coords="550,5,769,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_fetch_email_categories_action.html" title="The idea here is that at startup, the addin fires off one instance of this action, passing in its (initially empty) list of email categories by reference. When this action runs, it populates that list, so that if the email archiving dialogue is subsequently opened, it has the appropriate values. " alt="" coords="556,71,763,112"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_transmit_new_action.html" title="An action to transmit to the server an item which is a new item, and does not already have a SyncStat..." alt="" coords="547,136,772,177"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_transmit_update_action.html" title="An action to transmit to the server an item which is not a new item, but already has a SyncState..." alt="" coords="547,201,772,243"/>
+</map>

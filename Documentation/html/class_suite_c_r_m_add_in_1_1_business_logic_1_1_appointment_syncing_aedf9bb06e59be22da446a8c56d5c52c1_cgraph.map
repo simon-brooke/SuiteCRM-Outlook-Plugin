@@ -1,0 +1,8 @@
+<map id="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.ConstructAndDespatchCrmItem" name="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.ConstructAndDespatchCrmItem">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a7bbecd35543154e9785fcfd7788f54e8" title="Sets an entry in CRM and returns the id. &#39;Unsafe&#39; because if it fails (for whatever reason)..." alt="" coords="280,5,521,47"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a22031f77a31ab4d27818815ebc85786d" title="Get the existing sync state representing this item, if it exists, else null. " alt="" coords="285,70,517,126"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a3df7723090576b81797aa38a31eb67aa" title="Remove the item implied by this sync state from CRM. " alt="" coords="285,150,517,206"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a05ac2253c88bd7232ef6c3b5c0714f21" title="Remove an item from ItemsSyncState. " alt="" coords="285,230,517,286"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a428cdd093678cff52df358c232c8350c" title="SuiteCRMClient.clsSuiteCRMHelper.\lSetEntry" alt="" coords="569,5,811,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="859,5,1100,47"/>
+</map>

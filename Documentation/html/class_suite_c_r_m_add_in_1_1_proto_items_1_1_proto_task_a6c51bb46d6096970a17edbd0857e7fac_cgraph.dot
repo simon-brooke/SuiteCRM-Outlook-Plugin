@@ -1,0 +1,13 @@
+digraph "SuiteCRMAddIn.ProtoItems.ProtoTask.AsNameValues"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.AsNameValues",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SuiteCRMClient.RestAPIWrapper.\lSetNameValuePair",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a7d8a3f489c3f14462f6a6732939e95be"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#ae8a022a1d7034b495864a55ede1e0e72",tooltip="Validates a CRM id. "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SuiteCRMClient.RestAPIWrapper.\lGetUserId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#ab65492277e036bce9aff5361e64cb8fc",tooltip="Return the CRM id of the current user. "];
+}

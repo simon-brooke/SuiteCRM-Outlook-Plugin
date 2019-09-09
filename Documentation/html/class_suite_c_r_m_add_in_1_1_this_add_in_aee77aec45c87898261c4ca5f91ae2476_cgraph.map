@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.ThisAddIn.Authenticate" name="SuiteCRMAddIn.ThisAddIn.Authenticate">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_user_session.html#a85104699962c1ee8d45e5659237661e7" title="Authenticate against LDAP using my configured credentials. " alt="" coords="485,5,685,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1_user_session.html#a8382d9c050d8e5da8924dc536cd03245" title="Logs in to the CRM server. " alt="" coords="237,35,437,76"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8f019e8cd74b651865a318ef26ceb30f" title="SuiteCRMAddIn.ThisAddIn.\lShowAndLogError" alt="" coords="245,100,429,141"/>
+</map>

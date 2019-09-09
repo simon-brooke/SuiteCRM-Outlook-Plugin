@@ -1,0 +1,9 @@
+digraph "SuiteCRMAddIn.Dialogs.ConfirmRearchiveAlreadyArchivedEmails.ConfirmAlreadyArchivedEmails"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="SuiteCRMAddIn.Dialogs.Confirm\lRearchiveAlreadyArchivedEmails.Confirm\lAlreadyArchivedEmails",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SuiteCRMAddIn.Dialogs.Confirm\lRearchiveAlreadyArchivedEmails.Confirm\lRearchiveAlreadyArchivedEmails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_confirm_rearchive_already_archived_emails.html#ade571cbbc2f0918491eb69146dccd815"];
+}

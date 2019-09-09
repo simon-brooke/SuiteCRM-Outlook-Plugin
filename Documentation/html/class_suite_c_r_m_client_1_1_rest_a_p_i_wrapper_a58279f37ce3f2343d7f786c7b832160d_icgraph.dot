@@ -1,0 +1,19 @@
+digraph "SuiteCRMClient.RestAPIWrapper.GetModules"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node122 [label="SuiteCRMClient.RestAPIWrapper.\lGetModules",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node122 -> Node123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node123 [label="SuiteCRMAddIn.BusinessLogic.\lCRMPermissionsCache.HasAccess",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_c_r_m_permissions_cache.html#a8bbc14063e3e9bc4618b69884d78dcea",tooltip="Check whether my synchroniser is allowed access to the specified CRM module, with the specified permi..."];
+  Node122 -> Node124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node124 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.ArchiveDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a6207d7b9b5b9c52e7834a3d5415a9c21"];
+  Node122 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node125 [label="SuiteCRMAddIn.Dialogs.With\lCustomModulesSelectorForm.Populate\lCustomModulesListView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_with_custom_modules_selector_form.html#aab22450249b6290af8e945ebfdedfb16"];
+  Node122 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node126 [label="SuiteCRMClient.RestAPIWrapper.\lGetModulesHavingEmailRelationships",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a38f0f0e6ff6a0b43189def29346acc9c",tooltip="Return only those modules which have relationships to the email module. "];
+  Node126 -> Node127 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 [label="SuiteCRMAddIn.Dialogs.Custom\lModulesDialog.PopulateCustomModules\lListView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_custom_modules_dialog.html#ad43594486079041890b2cff4f96d3f23",tooltip="Populate this list view with custom modules, marking those saved in my settings as selected..."];
+  Node127 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node128 [label="SuiteCRMAddIn.Dialogs.Custom\lModulesDialog.CustomModulesDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_custom_modules_dialog.html#a0690a5a0bafdb53508b3bb0e9743b422"];
+}

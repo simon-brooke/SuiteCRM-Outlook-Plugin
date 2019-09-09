@@ -1,0 +1,9 @@
+digraph "SuiteCRMAddIn.BusinessLogic.AppointmentsSynchroniser.GetInviteeIdBySmtpAddress"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser.GetInvitee\lIdBySmtpAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SetCrmRelationship\lFromOutlook\< T, S \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#ae3becf9baf893213a817aa0d979cbb8b",tooltip="Sets up a CRM relationship to mimic an Outlook relationship "];
+}

@@ -1,0 +1,13 @@
+digraph "SuiteCRMAddIn.Helpers.LicenceValidationHelper.Validate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="SuiteCRMAddIn.Helpers.Licence\lValidationHelper.Validate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SuiteCRMAddIn.Helpers.Licence\lValidationHelper.NeedNotRevlidate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_helpers_1_1_licence_validation_helper.html#a68becedae584364164cfb406b0937db2"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SuiteCRMClient.RestService.\lCreateGetRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_service.html#ad6cb4f467cdb22cab295b9e658723416",tooltip="Create an HTTP &#39;GET&#39; request by appending thise name/value pairs to my base URL. "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SuiteCRMClient.Logging.ILogger.\lShowAndAddEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html#a44f8657cd9107b8401fb762c0d9ad1ab",tooltip="Adds this message to the log, and displays it in a dialog box. "];
+}

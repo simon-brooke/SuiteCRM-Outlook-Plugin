@@ -1,0 +1,7 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.TrySetRelationship" name="SuiteCRMClient.clsSuiteCRMHelper.TrySetRelationship">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a0e634b04d9750379118745f192d75a53" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.CreateEmailRelationship\lOrFail" alt="" coords="295,5,552,61"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a8f51774a4b5d0dcd199c7a5b72ea4096" title="Sets a CRM relationship and returns boolean success. &#39;Unsafe&#39; because most callers ignore the result..." alt="" coords="303,85,544,126"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a0dcfbb2286b3d50c3ea8863705b19501" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.ArchiveEmailWith\lEntityRelationships" alt="" coords="610,5,827,61"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a5d2d80bf950c4a4fd241610e65bd4713" title="SuiteCRMAddIn.BusinessLogic.\lAppointmentSyncing.IsMatch" alt="" coords="613,85,824,126"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_syncing.html#a20441ed5d82c529e624bba3ef7571e36" title="SuiteCRMAddIn.BusinessLogic.\lContactSyncing.ConstructSyncState" alt="" coords="600,150,837,191"/>
+</map>

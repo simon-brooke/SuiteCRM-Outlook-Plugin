@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.AddOrUpdateItemFromOutlookToCrm" name="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.AddOrUpdateItemFromOutlookToCrm">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#afd9141a746526bfab3c4488bc4103ccc" title="Perform all the necessary checking before adding or updating an item on CRM. " alt="" coords="304,5,632,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a505217ef3946d0f9996301472cabc026" title="Log a message regarding this Outlook appointment. " alt="" coords="353,85,583,126"/>
+</map>

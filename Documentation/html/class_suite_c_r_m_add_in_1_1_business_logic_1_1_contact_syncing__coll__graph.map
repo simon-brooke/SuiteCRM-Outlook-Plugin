@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.BusinessLogic.ContactSyncing" name="SuiteCRMAddIn.BusinessLogic.ContactSyncing">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html" title="Synchroniser\&lt; Outlook.Contact\lItem \&gt;" alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_direction.html" title="A direction in which things may be synchronised. Directions are named with respect to CRM..." alt="" coords="235,5,445,47"/>
+</map>

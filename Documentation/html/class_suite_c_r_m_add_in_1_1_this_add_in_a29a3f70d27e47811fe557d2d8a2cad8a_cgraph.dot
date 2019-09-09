@@ -1,0 +1,9 @@
+digraph "SuiteCRMAddIn.ThisAddIn.ReinitialiseSession"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node68 [label="SuiteCRMAddIn.ThisAddIn.\lReinitialiseSession",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node68 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="SuiteCRMClient.RestAPIWrapper.\lGetServerInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a68ac5a7ecc6526184d1d156354b87ead",tooltip="Perform a get_server_info call, and return the result. "];
+}

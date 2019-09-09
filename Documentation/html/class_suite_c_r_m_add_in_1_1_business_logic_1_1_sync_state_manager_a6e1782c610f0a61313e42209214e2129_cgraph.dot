@@ -1,0 +1,11 @@
+digraph "SuiteCRMAddIn.BusinessLogic.SyncStateManager.BruteForceSaveAll"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.BruteForceSaveAll",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.GetSynchronisedItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state_manager.html#af450f947df4fe310424ad2de1275d6cb",tooltip="Get all the syncstates I am holding. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SuiteCRMClient.Logging.ILogger.\lAddEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html#a382e4f42b88246eedbe5bf63149a18d6",tooltip="Adds this message to the log. "];
+}

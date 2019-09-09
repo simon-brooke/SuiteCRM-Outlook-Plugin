@@ -1,0 +1,3 @@
+<map id="SuiteCRMAddIn.Daemon.TransmitNewAction.Perform" name="SuiteCRMAddIn.Daemon.TransmitNewAction.Perform">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#ac7d190657e60a63b1fcd49ba51b96f95" title="Add the item implied by this SyncState, which may not exist in CRM, to CRM. " alt="" coords="279,5,516,61"/>
+</map>

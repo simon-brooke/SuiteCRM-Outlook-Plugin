@@ -1,0 +1,25 @@
+digraph "SuiteCRMAddIn.BusinessLogic.CrmId.ToString"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node144 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.ToString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node144 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::GetInvitee\lIdBySmtpAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af8b002babafbe3c21cbd27419ee72e95",tooltip="Get the id of the record with the specified smtpAddress in the module with the specified moduleName..."];
+  Node144 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser.Address\lResolutionData.AddressResolutionData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser_1_1_address_resolution_data.html#a565b8a6824478b06480f65f15c078aae"];
+  Node144 -> Node147 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.ConstructAnd\lDespatchCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a2cb7f84b824dca5501fb81201fc953a5",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+  Node144 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.Equals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a7a821c30c1d2fb2b46d39332ad28f928"];
+  Node148 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node149 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.OtherIteration\lActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a611349821f6a273683d93c8c0c41bf61"];
+  Node144 -> Node150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node150 [label="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.CreateEmailRelationship\lOrFail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a948cb2a5bcb8e8023207a335c87720be"];
+  Node144 -> Node151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.EnsureSynchronisation\lPropertyForOutlookItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a9f9e083b51bdf10fd1236a4d34e3fad2"];
+  Node144 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node152 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.GetOrCreateSync\lState\< ItemType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state_manager.html#aea75c5d53ef5e3ee4640b5be8396e033",tooltip="Get a sync state for this item, creating it if necessary. "];
+  Node144 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="SuiteCRMAddIn.Extensions.\lAppointmentItemExtension.SetCrmId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_extensions_1_1_appointment_item_extension.html#a1227aeeab015ffda3f4475ca6202377d",tooltip="Set the CRM id for this item to this value. "];
+}

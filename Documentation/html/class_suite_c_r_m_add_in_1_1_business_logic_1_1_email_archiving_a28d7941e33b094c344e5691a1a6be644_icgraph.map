@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.BusinessLogic.EmailArchiving.ProcessEligibleNewMailItem" name="SuiteCRMAddIn.BusinessLogic.EmailArchiving.ProcessEligibleNewMailItem">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a3d3136423943e3e4f71d3ea2b1062147" title="SuiteCRMAddIn.ThisAddIn.\lManualArchive" alt="" coords="284,39,468,80"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_suite_c_r_m_ribbon.html#af45e3d97607869f229558ab49c84379b" title="SuiteCRMAddIn.SuiteCRMRibbon.btn\lArchive_Action" alt="" coords="516,5,761,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a4672086c412924ca3bf5c6aa52466c89" title="SuiteCRMAddIn.ThisAddIn.\lStartSynchronisationProcesses" alt="" coords="536,71,741,112"/>
+</map>

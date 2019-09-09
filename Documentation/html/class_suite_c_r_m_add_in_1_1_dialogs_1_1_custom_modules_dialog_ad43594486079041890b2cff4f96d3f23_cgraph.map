@@ -1,0 +1,7 @@
+<map id="SuiteCRMAddIn.Dialogs.CustomModulesDialog.PopulateCustomModulesListView" name="SuiteCRMAddIn.Dialogs.CustomModulesDialog.PopulateCustomModulesListView">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a510c1dedb473b52cb4d3ce9d5761b57b" title="Return only those modules which have relationships to the email module. " alt="" coords="312,39,557,80"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#afd19c20b8c3d82655e35d46d7829197f" title="Get the list of modules installed in the connected CRM instance, with their associated access control..." alt="" coords="895,5,1136,47"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#af93c5906c64452ae63b6c12891f861bc" title="SuiteCRMClient.clsSuiteCRMHelper.\lGetFields" alt="" coords="605,68,847,109"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="1184,39,1425,80"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aae0adc545d51a81ed1297ceaa8b1522a" title="Get the module fields data for the module with this name, if any. " alt="" coords="895,71,1136,112"/>
+</map>

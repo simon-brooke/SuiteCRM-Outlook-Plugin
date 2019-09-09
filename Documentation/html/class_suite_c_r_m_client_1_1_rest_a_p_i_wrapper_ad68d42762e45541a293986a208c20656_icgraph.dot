@@ -1,0 +1,21 @@
+digraph "SuiteCRMClient.RestAPIWrapper.SetEntry"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node201 [label="SuiteCRMClient.RestAPIWrapper.\lSetEntry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node201 -> Node202 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node202 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::ConstructAnd\lDespatchCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a86726cd3a49be75df41c90fad6adf129",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+  Node201 -> Node203 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node203 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SetCrmRelationship\lFromOutlook\< T, S \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a40629a2c0689810e7ad1eeee2032f8bd",tooltip="Sets up a CRM relationship to mimic an Outlook relationship "];
+  Node201 -> Node204 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.ConstructAnd\lDespatchCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a2cb7f84b824dca5501fb81201fc953a5",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+  Node201 -> Node205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node205 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.RemoveFromCrm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a72d2012258609977bba727172e481e6f",tooltip="Override: we get notified of a removal, for a Meeting item, when the meeting is cancelled. We do NOT want to remove such an item; instead, we want to update it. "];
+  Node201 -> Node206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.RemoveFromCrm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#addd935fc45782a1f55cc1904cef7b4c0",tooltip="Remove the item implied by this sync state from CRM. "];
+  Node201 -> Node207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.ConstructAndDespatch\lCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#ad265cd4e1c475793236468325a43f1e4",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+  Node201 -> Node208 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node208 [label="SuiteCRMClient.Email.Archiveable\lEmail.Save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#afb649e45ccb57d6a534c7386e479338c",tooltip="Save my email to CRM, and link it to these contact ids. "];
+}

@@ -1,0 +1,31 @@
+digraph "SuiteCRMAddIn.BusinessLogic.MeetingsSynchroniser.SetOutlookRecipientsFromCRM"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node46 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.SetOutlook\lRecipientsFromCRM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node46 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::LogItemAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a714d6d1b6d5fcc092b77c462653fd4d6",tooltip="Log a message regarding this Outlook appointment. "];
+  Node46 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="SuiteCRMClient.RESTObjects.\lNameValueCollection.GetValueAsString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_name_value_collection.html#ae1d2ffcb26436a11652d46de487aba81",tooltip="Get the value for this name within this name-value collection, as a string. "];
+  Node48 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="SuiteCRMClient.RESTObjects.\lNameValueCollection.GetBinding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_name_value_collection.html#a0ee314d69ac1024c027b2ce6c0f4cfba",tooltip="Get the binding for this name within this name-value collection. "];
+  Node46 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SaveItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#acb95f592eeff38a8fa7d446d965d9219"];
+  Node46 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#ae8a022a1d7034b495864a55ede1e0e72",tooltip="Validates a CRM id. "];
+  Node46 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::GetInvitee\lIdBySmtpAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af8b002babafbe3c21cbd27419ee72e95",tooltip="Get the id of the record with the specified smtpAddress in the module with the specified moduleName..."];
+  Node46 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::CacheAddress\lResolutionData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a3db1cb708cfecb94b84fc1b5a53ca59d",tooltip="Add an address resolution composed from this module name and record to the cache. ..."];
+  Node46 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a4c42d534f0f83aa65403c2c8e06dc5d1",tooltip="Get the single CrmId instance for this value. "];
+  Node54 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a753d936c4867f81d95032490ff89cd48",tooltip="Validates a CRM id. "];
+  Node46 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="SuiteCRMClient.RestAPIWrapper.\lGetRelationship",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a1e5aa8d2efc737faddfd21d64bc54a04"];
+  Node56 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="SuiteCRMClient.RestAPIWrapper.\lGetRelationships",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#aa0b26f61f43db7cf65c8ae19336e3886"];
+  Node57 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="SuiteCRMClient.RestAPIWrapper.\lEnsureLoggedIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a47fa9bef59b59f02817a631b33a61a35"];
+}

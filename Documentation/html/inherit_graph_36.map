@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_suite_c_r_m_add_in_1_1_tests_1_1_with_logger_tests.html" title="An abstract superclass for test classes which need a logger. " alt="" coords="5,71,191,112"/>
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_tests_1_1_licence_validation_helper_tests.html" title="SuiteCRMAddIn.BusinessLogic.\lTests.LicenceValidationHelperTests" alt="" coords="239,5,471,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_tests_1_1_abstract_with_crm_connection_test.html" title="Abstract superclass for a test class which needs a CRM connection. " alt="" coords="251,71,458,112"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_tests_1_1_with_rest_service_tests.html" title="An abstract superclass for test classes which need a REST service. " alt="" coords="250,136,459,177"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_tests_1_1_fetch_email_categories_action_tests.html" title="Test that FetchEmailCategoriesAction actually fetches some categories. " alt="" coords="546,71,767,112"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_client_1_1_tests_1_1_l_d_a_p_authentication_helper_tests.html" title="SuiteCRMClient.Tests.LDAPAuthentication\lHelperTests" alt="" coords="519,136,795,177"/>
+</map>

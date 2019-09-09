@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddInTests.WithRestServiceTests" name="SuiteCRMAddInTests.WithRestServiceTests">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_tests_1_1_with_logger_tests.html" title="An abstract superclass for test classes which need a logger. " alt="" coords="51,171,173,197"/>
+<area shape="rect" id="node3" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html" title="Interface implemented by all logging classes " alt="" coords="5,81,219,108"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1_rest_service.html" title="A generic handler for a REST service. Derived in large part from Andrew&#39;s CrmRestServer, q.v., but that is static and I&#39;m really unhappy about the number of static classes in this design. In the long term I&#39;d like to make CrmRestServer a subclass of this class, but that is a major change I&#39;m not yet ready to make. " alt="" coords="197,171,390,197"/>
+</map>
