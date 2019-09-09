@@ -1,0 +1,13 @@
+digraph "SuiteCRMAddIn.ProtoItems.ProtoTask.AsNameValues"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.AsNameValues",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.ConstructAndDespatch\lCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#ad265cd4e1c475793236468325a43f1e4",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.Equals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#a2b1bdedb419b72c23c54796b65c7b0e6",tooltip="True if other is also a ProtoTask I have identically the same content as other. "];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.GetHashCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#ae0cfb00032214ff9e0b3a8280e3b93bf",tooltip="I&#39;m very like a dictionary constructed from my names/values, but not quite. "];
+}

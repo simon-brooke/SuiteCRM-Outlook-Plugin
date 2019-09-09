@@ -1,0 +1,35 @@
+digraph "SuiteCRMAddIn.BusinessLogic.CrmId.IsInvalid"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node53 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsInvalid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node53 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::LogItemAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a714d6d1b6d5fcc092b77c462653fd4d6",tooltip="Log a message regarding this Outlook appointment. "];
+  Node53 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::AddOrUpdate\lItemFromCrmToOutlook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a925000ba57c20ec2f0c4d87a5c8504bb",tooltip="Update a single appointment in the specified Outlook folder with changes from CRM, but only if its start date is fewer than five days in the past. "];
+  Node53 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::IsMatch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a5f0a46a834e3d2ca854dcc42265ce4ee"];
+  Node53 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.LogItemAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a98b39a282db8fee9ef76059b7b9f40aa",tooltip="Log a message regarding this Outlook item, with detail of the item. "];
+  Node53 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.AddOrUpdate\lItemFromOutlookToCrm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a4ed69e8713f70999fdc3514d6cf03a8f"];
+  Node53 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.GetSyncState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state_manager.html#aa89aa72b3283ec36128abfd6faaa4a6d",tooltip="Get the existing sync state for this item, if it exists and is of the appropriate type..."];
+  Node53 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.LogItemAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#aba66318aeed453027c96cee297fbb5b7",tooltip="Log a message regarding this Outlook appointment. "];
+  Node60 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.SaveItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#a9849c2ce6aa24545e704966f23eaf3aa"];
+  Node61 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.AddOrUpdateItem\lFromCrmToOutlook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#a8ae42d8d20a62682fcb3f280f7ec60cb"];
+  Node61 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.EnsureSynchronisation\lPropertyForOutlookItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#af4a5b174ccb119e56bad9b6ca674954e"];
+  Node53 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="SuiteCRMAddIn.Daemon.Transmit\lNewAction.Perform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_daemon_1_1_transmit_new_action.html#adfc2356fad7e28cba1c785278bc0a53d",tooltip="Perform this action. "];
+  Node53 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="SuiteCRMAddIn.Extensions.\lAppointmentItemExtension.SetCrmId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_extensions_1_1_appointment_item_extension.html#a1227aeeab015ffda3f4475ca6202377d",tooltip="Set the CRM id for this item to this value. "];
+  Node53 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="SuiteCRMAddIn.ProtoItems.\lProtoAppointment.AsNameValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_appointment.html#ab6a57975ca40b994b09d7f6ca08249d2",tooltip="AsNameValues is used in transmission to CRM as well as for comparison, so it should NOT access our ca..."];
+  Node66 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::ConstructAnd\lDespatchCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a86726cd3a49be75df41c90fad6adf129",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+}

@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser.GetOutlookItems" name="SuiteCRMAddIn.BusinessLogic.Synchroniser.GetOutlookItems">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a442d98ec1e21c06b8f658c91e0f44be1" title="Construct a new instance of a synchroniser with this thread name and context. " alt="" coords="264,5,496,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#ae4ab7ed23cae7151e664c2c88ebcf700" title="Run a single iteration of the synchronisation process for the items for which I am responsible..." alt="" coords="264,85,496,141"/>
+</map>

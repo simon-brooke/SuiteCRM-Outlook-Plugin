@@ -1,0 +1,19 @@
+digraph "SuiteCRMAddIn.BusinessLogic.AppointmentsSynchroniser.LogItemAction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser.LogItem\lAction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SaveItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#acb95f592eeff38a8fa7d446d965d9219"];
+  Node40 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::AddNewItem\lFromCrmToOutlook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a9a528551c09322b1ebb13cfe7f1e5b54",tooltip="Add an item existing in CRM but not found in Outlook to Outlook. "];
+  Node40 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::AddOrUpdate\lItemFromOutlookToCrm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#aa990e13a654a72d865babd6be6eba8b2",tooltip="Add the item implied by this SyncState, which may not exist in CRM, to CRM. "];
+  Node40 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::LinkOutlookItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a2e75f81e4fc59565bcfba96ea391b8c8",tooltip="Get all items in this appointments folder. Should be called just once (per folder?) when the add-in starts up; initialises the SyncState list. "];
+  Node40 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::IsMatch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a5f0a46a834e3d2ca854dcc42265ce4ee"];
+  Node40 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af2a70be2510b7075ead376292e280649",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+}

@@ -1,0 +1,45 @@
+digraph "SuiteCRMClient.RestAPIWrapper.GetFieldsForModule"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node101 [label="SuiteCRMClient.RestAPIWrapper.\lGetFieldsForModule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node101 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 [label="SuiteCRMAddIn.Daemon.Fetch\lEmailCategoriesAction.Perform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_daemon_1_1_fetch_email_categories_action.html#aa66d26d6ff7091896ec73ce4a69d699f",tooltip="Replace the items in my items list, which is the list passed in by the caller, with the options retur..."];
+  Node101 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node103 [label="SuiteCRMClient.RestAPIWrapper.\lGetFields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#ac44c7c8954b5a007c6561d034189546a"];
+  Node103 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node104 [label="SuiteCRMClient.RestAPIWrapper.\lGetModulesHavingEmailRelationships",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a38f0f0e6ff6a0b43189def29346acc9c",tooltip="Return only those modules which have relationships to the email module. "];
+  Node104 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node105 [label="SuiteCRMAddIn.Dialogs.Custom\lModulesDialog.PopulateCustomModules\lListView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_custom_modules_dialog.html#ad43594486079041890b2cff4f96d3f23",tooltip="Populate this list view with custom modules, marking those saved in my settings as selected..."];
+  Node105 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node106 [label="SuiteCRMAddIn.Dialogs.Custom\lModulesDialog.CustomModulesDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_custom_modules_dialog.html#a0690a5a0bafdb53508b3bb0e9743b422"];
+  Node101 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node107 [label="SuiteCRMClient.RestAPIWrapper.\lGetCharacterFields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a3b0173a43abff84e0b0f0efa5c2ed51e",tooltip="Get the names of all the fields of the module with this name whose data type is char or varchar or na..."];
+  Node107 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node108 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.Search",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#aa32f4ff78e1a63423539f438efe11a8d",tooltip="Search CRM for records matching this search text, and populate the tree view with a tree of nodes rep..."];
+  Node108 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node109 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.ArchiveDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a6207d7b9b5b9c52e7834a3d5415a9c21"];
+  Node108 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node110 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.btnSearch_Click",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a3160bc88861f266746f9631068fc9ed7"];
+  Node110 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node110 -> Node111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node111 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.Dispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a1f34c87c999c13b787aab281472014cd",tooltip="Clean up any resources being used. "];
+  Node107 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node112 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.SearchQuery.SearchQuery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog_1_1_search_query.html#ae4ceb37e64a28f94b39a952743de4dff",tooltip="Construct a new instance of a search query. "];
+  Node101 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node113 [label="SuiteCRMClient.RestAPIWrapper.\lGetActivitiesLinks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#accf4001b77548d304c053979873b00b6",tooltip="Find the fields, among the fields of this module, which are links and where the name of the relations..."];
+  Node113 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node113 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node114 [label="SuiteCRMClient.RestAPIWrapper.\lTrySetRelationship",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a510876013f08c61785ac5f696198ac71",tooltip="The protocols for how link fields are named vary. Try the most likely two possibilities, and log failures. "];
+  Node114 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node115 [label="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.CreateEmailRelationship\lOrFail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a948cb2a5bcb8e8023207a335c87720be"];
+  Node114 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node116 [label="SuiteCRMClient.Email.Archiveable\lEmail.Save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#afb649e45ccb57d6a534c7386e479338c",tooltip="Save my email to CRM, and link it to these contact ids. "];
+  Node114 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node117 [label="SuiteCRMClient.RestAPIWrapper.\lSetRelationshipUnsafe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a98dbca73e603f23d0a5be5021c8f550e",tooltip="Sets a CRM relationship and returns boolean success. &#39;Unsafe&#39; because most callers ignore the result..."];
+  Node117 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node118 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SetCrmRelationship\lFromOutlook\< T, S \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a40629a2c0689810e7ad1eeee2032f8bd",tooltip="Sets up a CRM relationship to mimic an Outlook relationship "];
+  Node117 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node119 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.ConstructAnd\lDespatchCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a2cb7f84b824dca5501fb81201fc953a5",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+}

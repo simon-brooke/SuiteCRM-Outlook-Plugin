@@ -1,0 +1,9 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser.LogItemAction" name="SuiteCRMAddIn.BusinessLogic.Synchroniser.LogItemAction">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#aecaeaaae371d340839392edf8d8f396e" title="Add the Outlook item referenced by this sync state, which may not exist in CRM, to CRM..." alt="" coords="267,5,555,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#ae80c795df262f881c995b9cadd54a5d4" title="Update these items, which may or may not already exist in Outlook. " alt="" coords="264,85,559,141"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a9e06c6056beacdb87f5d807f4739b9ba" title="Find any existing Outlook items which appear to be identical to this CRM item. " alt="" coords="295,165,527,221"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a3c7972ebc9fde19403be4cb526b58898" title="Entry point from event handler when an item is added in Outlook. " alt="" coords="295,245,527,301"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a39a299e28dff602fec9c2291328e27d4" title="Entry point from event handler, called when an Outlook item of class AppointmentItem is believed to h..." alt="" coords="295,325,527,381"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a16525ef3c5803a03599802b5d4416d24" title="Remove an outlook item and its associated sync state. " alt="" coords="295,405,527,461"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a05ac2253c88bd7232ef6c3b5c0714f21" title="Remove an item from ItemsSyncState. " alt="" coords="295,485,527,541"/>
+</map>

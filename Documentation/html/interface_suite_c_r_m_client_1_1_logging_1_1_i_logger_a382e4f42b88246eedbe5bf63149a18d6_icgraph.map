@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.Logging.ILogger.AddEntry" name="SuiteCRMClient.Logging.ILogger.AddEntry">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_extensions_1_1_recipient_extensions.html#a054f7a4d5a82c3e3b28cda0d474345ab" title="From this email recipient, extract the SMTP address (if that&#39;s possible). " alt="" coords="271,5,517,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_suite_c_r_m_ribbon.html#ae7ab1a21f9a62df6f3c3138c99358a6c" title="Send, and also archive to CRM, the current message in the composer window. " alt="" coords="271,71,517,112"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1_logging_1_1_logger_extensions.html#a54cc9eb697aef08f00cbce1d3efb9b9d" title="SuiteCRMClient.Logging.Logger\lExtensions.Error" alt="" coords="289,136,499,177"/>
+</map>

@@ -1,0 +1,13 @@
+digraph "SuiteCRMAddIn.BusinessLogic.ContactSynchroniser.SaveItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node62 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.SaveItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.AddOrUpdate\lItemFromCrmToOutlook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a6a18b3b174c87e0dc53c3e59b35a895f"];
+  Node62 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.LogItemAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a98b39a282db8fee9ef76059b7b9f40aa",tooltip="Log a message regarding this Outlook item, with detail of the item. "];
+  Node62 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.EnsureSynchronisation\lPropertyForOutlookItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a65026111a7fc6e9d78398def2a7b219a",tooltip="Ensure that this Outlook item has a property of this name with this value. "];
+}

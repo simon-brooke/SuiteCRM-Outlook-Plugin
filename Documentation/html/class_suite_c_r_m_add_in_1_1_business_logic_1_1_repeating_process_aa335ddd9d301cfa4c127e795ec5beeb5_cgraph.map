@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.BusinessLogic.RepeatingProcess.PrepareShutdownAll" name="SuiteCRMAddIn.BusinessLogic.RepeatingProcess.PrepareShutdownAll">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a75baab6367c7ce36a63695d23a646c95" title="Put me into a mode where I finish all the work I have to do quickly. " alt="" coords="304,5,540,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1484b532908abdfad6640cc758cd2f37" title="Stop me at the end of my current iteration; does not force an immediate stop unless no work is curren..." alt="" coords="317,71,527,112"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a13a459becdd7115fdd3af289318e74b7" title="Do whatever it is I do, once. " alt="" coords="588,5,815,47"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="SuiteCRMAddIn.Dialogs.SettingsDialog.SettingsDialog" name="SuiteCRMAddIn.Dialogs.SettingsDialog.SettingsDialog">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_direction.html#a6cd05d3633205d522a5ba84702d16bc0" title="Convert this direction into a human&#45;readable string " alt="" coords="295,5,505,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_accounts_archive_settings.html#a27ae6b3fa16f5ec92fe043a467c1db08" title="SuiteCRMAddIn.BusinessLogic.\lEmailAccountsArchiveSettings.Combine" alt="" coords="271,71,529,112"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_accounts_archive_settings.html#a5641854b191783ce06c6a91746e605bf" title="SuiteCRMAddIn.BusinessLogic.\lEmailAccountsArchiveSettings.Save" alt="" coords="282,136,518,177"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_client_1_1_user_session.html#a85104699962c1ee8d45e5659237661e7" title="Authenticate against LDAP using my configured credentials. " alt="" coords="597,224,797,265"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_client_1_1_user_session.html#a8382d9c050d8e5da8924dc536cd03245" title="Logs in to the CRM server. " alt="" coords="300,253,500,295"/>
+<area shape="rect" id="node9" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a9f613ccab49d795f49d78d4e98c884ec" title="Clear the user id cache. " alt="" coords="279,319,521,360"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_accounts_archive_settings.html#a1480c984997d01b643c3db7831dec8c0" title="SuiteCRMAddIn.BusinessLogic.\lEmailAccountsArchiveSettings.Email\lAccountsArchiveSettings" alt="" coords="577,63,816,119"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_accounts_archive_settings.html#a325923b7c2f03c27159ea6ff085e7cf7" title="SuiteCRMAddIn.BusinessLogic.\lEmailAccountsArchiveSettings.Clear" alt="" coords="864,71,1101,112"/>
+</map>

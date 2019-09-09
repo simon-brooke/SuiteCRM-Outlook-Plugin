@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html" title="Synchronise items of the class for which I am responsible. " alt="" coords="276,107,499,149"/>
+<area shape="rect" id="node3" href="$struct_suite_c_r_m_add_in_1_1_wait_cursor.html" title="SuiteCRMAddIn.WaitCursor" alt="" coords="294,5,481,32"/>
+<area shape="rect" id="node4" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html" title="Interface implemented by all logging classes " alt="" coords="281,56,494,83"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1_logging_1_1_abstract_logger.html" title="Provides a common implementation of ShowAndAddEntry for implementations of ILogger. " alt="" coords="559,49,777,90"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_file_logger.html" title="A logger which logs to file? " alt="" coords="839,31,1021,57"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_log4_net_logger.html" title="SuiteCRMAddIn.Log4NetLogger" alt="" coords="825,81,1035,108"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html" title="An agent which does something repeatedly. " alt="" coords="5,215,216,257"/>
+<area shape="rect" id="node9" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_c_r_m_permissions_cache.html" title="Cache of CRM import/export permissions, flushed hourly. " alt="" coords="264,172,511,228"/>
+<area shape="rect" id="node10" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html" title="The agent which handles the automatic and manual archiving of emails. " alt="" coords="282,251,493,293"/>
+<area shape="rect" id="node11" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_daemon_worker.html" title="A thing which maintains a queue of tasks (instances of DaemonAction) and executes them in turn..." alt="" coords="276,317,499,358"/>
+</map>

@@ -1,0 +1,26 @@
+digraph "SuiteCRMClient.RESTObjects.NameValueCollection.GetBinding"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="SuiteCRMClient.RESTObjects.\lNameValueCollection.GetBinding",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SuiteCRMClient.RESTObjects.\lEntryValue.GetBinding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_entry_value.html#ad1dc9452c1b38869f1012f88d677664f",tooltip="Get the binding for this name within this entry. "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SetCrmRelationship\lFromOutlook\< T, S \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a40629a2c0689810e7ad1eeee2032f8bd",tooltip="Sets up a CRM relationship to mimic an Outlook relationship "];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="SuiteCRMClient.RESTObjects.\lNameValueCollection.GetValueAsString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_name_value_collection.html#ae1d2ffcb26436a11652d46de487aba81",tooltip="Get the value for this name within this name-value collection, as a string. "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.SetOutlook\lRecipientsFromCRM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a2d11d345708fd85c9eabc30f862b8238",tooltip="Set up the recipients of the appointment represented by this olItem from this crmItem. "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.UpdateOutlook\lDetails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a8f0c99c95424ef0b2514bd3dfccda977"];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.Search",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#aa32f4ff78e1a63423539f438efe11a8d",tooltip="Search CRM for records matching this search text, and populate the tree view with a tree of nodes rep..."];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.ArchiveDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a6207d7b9b5b9c52e7834a3d5415a9c21"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.btnSearch_Click",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a3160bc88861f266746f9631068fc9ed7"];
+  Node18 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.Dispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a1f34c87c999c13b787aab281472014cd",tooltip="Clean up any resources being used. "];
+}

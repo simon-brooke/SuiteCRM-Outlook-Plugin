@@ -1,0 +1,7 @@
+<map id="SuiteCRMAddIn.BusinessLogic.CRMPermissionsCache.HasImportAccess" name="SuiteCRMAddIn.BusinessLogic.CRMPermissionsCache.HasImportAccess">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_c_r_m_permissions_cache.html#ae827e3294d872f8fedc440b83ad0b8d2" title="Check whether my synchroniser is allowed access to the specified CRM module, with the specified permi..." alt="" coords="325,71,560,112"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#afd19c20b8c3d82655e35d46d7829197f" title="Get the list of modules installed in the connected CRM instance, with their associated access control..." alt="" coords="608,5,849,47"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_direction.html#ad456cb19bab5eb78bc35f7b305274d01" title="Does this direction allow outbound transfers from Outlook? " alt="" coords="623,71,834,112"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_direction.html#a96a16ea01111b3c05734e87d75eeef96" title="Does this direction allow inbound transfers to Outlook? " alt="" coords="623,136,834,177"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="897,5,1139,47"/>
+</map>

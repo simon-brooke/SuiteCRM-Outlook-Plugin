@@ -1,0 +1,11 @@
+digraph "SuiteCRMClient.RestAPIWrapper.SetRelationshipUnsafe"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node235 [label="SuiteCRMClient.RestAPIWrapper.\lSetRelationshipUnsafe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node235 -> Node236 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node236 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SetCrmRelationship\lFromOutlook\< T, S \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a40629a2c0689810e7ad1eeee2032f8bd",tooltip="Sets up a CRM relationship to mimic an Outlook relationship "];
+  Node235 -> Node237 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node237 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.ConstructAnd\lDespatchCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a2cb7f84b824dca5501fb81201fc953a5",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+}

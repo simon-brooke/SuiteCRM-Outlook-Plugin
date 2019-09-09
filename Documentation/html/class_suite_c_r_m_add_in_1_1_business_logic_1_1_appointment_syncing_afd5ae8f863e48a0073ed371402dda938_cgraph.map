@@ -1,0 +1,6 @@
+<map id="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.GetID" name="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.GetID">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1cls_globals.html#afcc5dc742f8dabdeb434dfb493a9d191" title="SuiteCRMAddIn.clsGlobals.\lMySqlEscape" alt="" coords="291,5,478,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a717fcb29df379f859e5bf91cbc1083c8" title="SuiteCRMClient.clsSuiteCRMHelper.\lGetEntryList" alt="" coords="264,71,505,112"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aedb6c3b87ff73bef81eb4cb8d16fe2ae" title="SuiteCRMClient.clsSuiteCRMHelper.\lGetValueByKey" alt="" coords="264,136,505,177"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="553,71,795,112"/>
+</map>

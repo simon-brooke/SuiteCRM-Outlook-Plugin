@@ -1,0 +1,16 @@
+digraph "SuiteCRMAddIn.ThisAddIn.StopUnconfiguredSynchronisationProcesses"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node109 [label="SuiteCRMAddIn.ThisAddIn.\lStopUnconfiguredSynchronisation\lProcesses",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node109 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node110 [label="SuiteCRMAddIn.BusinessLogic.\lRepeatingProcess.Start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1807d77e723339e933844895c68b3b4f",tooltip="If I am not currently running, set me running. "];
+  Node110 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node109 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node111 [label="SuiteCRMAddIn.BusinessLogic.\lRepeatingProcess.Stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1484b532908abdfad6640cc758cd2f37",tooltip="Stop me at the end of my current iteration; does not force an immediate stop unless no work is curren..."];
+  Node109 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node112 [label="SuiteCRMAddIn.ThisAddIn.\lShowArchiveForm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8052836bf64ac24c9334d6ac28ec967e"];
+  Node109 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node113 [label="SuiteCRMAddIn.ThisAddIn.\lShowSettingsForm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8e4511bd9e35cdd0b86024d96341990b"];
+}

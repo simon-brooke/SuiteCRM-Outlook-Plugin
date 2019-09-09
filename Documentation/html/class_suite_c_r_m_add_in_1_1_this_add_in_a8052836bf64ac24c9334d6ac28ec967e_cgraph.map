@@ -1,0 +1,9 @@
+<map id="SuiteCRMAddIn.ThisAddIn.ShowArchiveForm" name="SuiteCRMAddIn.ThisAddIn.ShowArchiveForm">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_user_session.html#a61cf62b4a67202acf08a834cbe44c5ab" title="The documentation at http://support.sugarcrm.com/Documentation/Sugar_Developer/Sugar_Developer_Guide_..." alt="" coords="263,5,463,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#aa335ddd9d301cfa4c127e795ec5beeb5" title="Prepare to shutdown all running processes. " alt="" coords="237,71,488,112"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_ribbon_image_helper.html#ab6c37f7066ccafd90143fe3803cb3c8b" title="SuiteCRMAddIn.RibbonImage\lHelper.Convert" alt="" coords="263,136,462,177"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a241a0e53ef17a70dfa4b991bce8df910" title="SuiteCRMAddIn.ThisAddIn.\lShowSettingsForm" alt="" coords="271,201,455,243"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a28d7941e33b094c344e5691a1a6be644" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.ProcessEligibleNew\lMailItem" alt="" coords="247,266,478,322"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a75baab6367c7ce36a63695d23a646c95" title="Put me into a mode where I finish all the work I have to do quickly. " alt="" coords="536,39,772,80"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1484b532908abdfad6640cc758cd2f37" title="Stop me at the end of my current iteration; does not force an immediate stop unless no work is curren..." alt="" coords="549,104,759,145"/>
+</map>

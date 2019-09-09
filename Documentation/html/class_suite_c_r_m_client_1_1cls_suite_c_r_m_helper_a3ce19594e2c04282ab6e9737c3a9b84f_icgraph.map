@@ -1,0 +1,6 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.getRelationship" name="SuiteCRMClient.clsSuiteCRMHelper.getRelationship">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a778c161dea3f5934089e5866b59f9dad" title="Ensure that this Outlook item has a property of this name with this value. " alt="" coords="312,5,592,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a8a922e6ddd966e890c8203d4c91912d1" title="Specialisation: in addition to the standard properties, meetings also require an organiser property..." alt="" coords="640,5,920,61"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#af477f9f681874a701880737a2383b5fc" title="Synchronise items in the specified folder with the specified SuiteCRM module. " alt="" coords="968,13,1180,54"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a7cee33973de0521341615a899e970cba" title="Action method of the thread. " alt="" coords="1228,13,1461,54"/>
+</map>

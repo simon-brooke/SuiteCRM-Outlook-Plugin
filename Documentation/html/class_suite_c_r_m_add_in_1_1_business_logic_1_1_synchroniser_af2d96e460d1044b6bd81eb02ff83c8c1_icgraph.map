@@ -1,0 +1,6 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser.GetDefaultFolder" name="SuiteCRMAddIn.BusinessLogic.Synchroniser.GetDefaultFolder">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a442d98ec1e21c06b8f658c91e0f44be1" title="Construct a new instance of a synchroniser with this thread name and context. " alt="" coords="264,5,496,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#ae4ab7ed23cae7151e664c2c88ebcf700" title="Run a single iteration of the synchronisation process for the items for which I am responsible..." alt="" coords="264,85,496,141"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a1cdd24df65f5475d8911465ed70859f0" title="SuiteCRMAddIn.BusinessLogic.\lSynchroniser\&lt; Outlook.Appointment\lItem \&gt;::InstallEventHandlers" alt="" coords="264,165,496,221"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a39a299e28dff602fec9c2291328e27d4" title="Entry point from event handler, called when an Outlook item of class AppointmentItem is believed to h..." alt="" coords="264,245,496,301"/>
+</map>

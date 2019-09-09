@@ -1,0 +1,13 @@
+digraph "SuiteCRMClient.RestAPIWrapper.GetSugarFields"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node156 [label="SuiteCRMClient.RestAPIWrapper.\lGetSugarFields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node156 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af2a70be2510b7075ead376292e280649",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+  Node156 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.GetEntriesPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a4173455a43277ae26f788a596f09a7d2",tooltip="Specialisation: also fetch names and email ids of recipients. "];
+  Node156 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.GetEntriesPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a1c05eaaf56c04964c20bc731c87c085b",tooltip="Fetch the page of entries from this module starting at this offset. "];
+}

@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.Logging.ILogger" name="SuiteCRMClient.Logging.ILogger">
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1_logging_1_1_abstract_logger.html" title="Provides a common implementation of ShowAndAddEntry for implementations of ILogger. " alt="" coords="96,155,315,196"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_file_logger.html" title="A logger which logs to file? " alt="" coords="5,244,187,271"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_log4_net_logger.html" title="SuiteCRMAddIn.Log4NetLogger" alt="" coords="211,244,421,271"/>
+</map>

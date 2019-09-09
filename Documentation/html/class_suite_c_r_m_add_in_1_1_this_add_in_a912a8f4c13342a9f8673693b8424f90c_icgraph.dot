@@ -1,0 +1,9 @@
+digraph "SuiteCRMAddIn.ThisAddIn.ManualSyncContact"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node64 [label="SuiteCRMAddIn.ThisAddIn.\lManualSyncContact",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="SuiteCRMAddIn.SuiteCRMRibbon.manual\lSyncButton_Action",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_suite_c_r_m_ribbon.html#a2b2a6e806ba12bfa2d2661ace1e291d2"];
+}

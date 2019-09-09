@@ -1,0 +1,36 @@
+digraph "SuiteCRMAddIn.Dialogs.ArchiveDialog.Search"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node52 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.Search",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node52 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="SuiteCRMAddIn.WaitCursor.For",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_suite_c_r_m_add_in_1_1_wait_cursor.html#a7ba13e6acae32dbe5c97f21ba6c323b9"];
+  Node53 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="SuiteCRMAddIn.WaitCursor.\lWaitCursor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_suite_c_r_m_add_in_1_1_wait_cursor.html#a5a3235a0e82ff01664e64e15a542babc"];
+  Node52 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="SuiteCRMAddIn.BusinessLogic.\lErrorHandler.Handle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_error_handler.html#aa5ac5699b0099c7a812a895751df5e07"];
+  Node55 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="SuiteCRMClient.RestAPIWrapper.\lGetActivitiesLinks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#accf4001b77548d304c053979873b00b6",tooltip="Find the fields, among the fields of this module, which are links and where the name of the relations..."];
+  Node56 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="SuiteCRMClient.RestAPIWrapper.\lGetFieldsForModule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#aeed0498f3c1d258392df1bfe2688e5a1",tooltip="Get the module fields data for the module with this name, if any. "];
+  Node57 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="SuiteCRMClient.RestAPIWrapper.\lEnsureLoggedIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a47fa9bef59b59f02817a631b33a61a35"];
+  Node52 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="SuiteCRMClient.RestAPIWrapper.\lGetCharacterFields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a3b0173a43abff84e0b0f0efa5c2ed51e",tooltip="Get the names of all the fields of the module with this name whose data type is char or varchar or na..."];
+  Node59 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="SuiteCRMClient.RestAPIWrapper.\lGetValueByKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#af5d00a395daf7317f07f943f2d798ba0"];
+  Node52 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="SuiteCRMClient.RESTObjects.\lNameValueCollection.GetValueAsString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_name_value_collection.html#ae1d2ffcb26436a11652d46de487aba81",tooltip="Get the value for this name within this name-value collection, as a string. "];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="SuiteCRMClient.RESTObjects.\lNameValueCollection.GetBinding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_name_value_collection.html#a0ee314d69ac1024c027b2ce6c0f4cfba",tooltip="Get the binding for this name within this name-value collection. "];
+  Node52 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.btnSearch_Click",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a3160bc88861f266746f9631068fc9ed7"];
+  Node63 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="SuiteCRMAddIn.Dialogs.Confirm\lRearchiveAlreadyArchivedEmails.Confirm\lAlreadyArchivedEmails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_confirm_rearchive_already_archived_emails.html#a18342923ff56d937adc17f6ac7d3e4f3",tooltip="If any of these selectedEmails has already been archived, pop up a dialof asking whether they should ..."];
+  Node64 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="SuiteCRMAddIn.Dialogs.Confirm\lRearchiveAlreadyArchivedEmails.Confirm\lRearchiveAlreadyArchivedEmails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_confirm_rearchive_already_archived_emails.html#ade571cbbc2f0918491eb69146dccd815"];
+}

@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.BusinessLogic.TaskSyncing.LogItemAction" name="SuiteCRMAddIn.BusinessLogic.TaskSyncing.LogItemAction">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_syncing.html#a214d7e1a0000e29128954b3e6516fbb8" title="SuiteCRMAddIn.BusinessLogic.\lTaskSyncing.SaveItem" alt="" coords="277,13,488,54"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_syncing.html#a2024b479b443ef00135870d5bbbfa4be" title="Update a single item in the specified Outlook folder with changes from CRM. If the item does not exis..." alt="" coords="264,77,501,133"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_syncing.html#a8c5a8adf1dff2b0d9074b2bd75ec27dd" title="SuiteCRMAddIn.BusinessLogic.\lTaskSyncing.EnsureSynchronisation\lPropertyForOutlookItem" alt="" coords="549,5,785,61"/>
+</map>

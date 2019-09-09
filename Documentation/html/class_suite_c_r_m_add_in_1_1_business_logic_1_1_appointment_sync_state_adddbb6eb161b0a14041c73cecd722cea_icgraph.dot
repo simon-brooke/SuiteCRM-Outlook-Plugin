@@ -1,0 +1,13 @@
+digraph "SuiteCRMAddIn.BusinessLogic.AppointmentSyncState.VerifyItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentSyncState.VerifyItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SuiteCRMAddIn.BusinessLogic.\lCallSyncState.CreateProtoItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_call_sync_state.html#af807d4c7979f689de6e50ce9ffaf3a4d",tooltip="Construct a JSON-serialisable representation of my appointment item. "];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingSyncState.CreateProtoItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meeting_sync_state.html#ad3f9092e610425b1aa1d0b7dfd9b6bb3",tooltip="Construct a JSON-serialisable representation of my appointment item. "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingSyncState.ReallyChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meeting_sync_state.html#af91b96ef2906eecc853b6068986049e3",tooltip="Specialisation: A meeting has really changed if its recipients have changed. "];
+}

@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.ProtoItems.ProtoTask.AsNameValues" name="SuiteCRMAddIn.ProtoItems.ProtoTask.AsNameValues">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a0e1f5bda4e7a7ebf6f9ee988086dd79d" title="SuiteCRMClient.clsSuiteCRMHelper.\lSetNameValuePair" alt="" coords="243,5,484,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a050637c0cbd1012cf9cf58c5cb3d179c" title="Return the CRM id of the current user. " alt="" coords="243,71,484,112"/>
+</map>

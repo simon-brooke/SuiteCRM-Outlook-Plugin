@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.BusinessLogic.Synchroniser.RemoveFromCrm" name="SuiteCRMAddIn.BusinessLogic.Synchroniser.RemoveFromCrm">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a114e9d2ea81e95090ab852204fed2dcc" title="Deal, in CRM, with items deleted in Outlook. " alt="" coords="264,5,496,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a39a299e28dff602fec9c2291328e27d4" title="Entry point from event handler, called when an Outlook item of class AppointmentItem is believed to h..." alt="" coords="264,85,496,141"/>
+</map>

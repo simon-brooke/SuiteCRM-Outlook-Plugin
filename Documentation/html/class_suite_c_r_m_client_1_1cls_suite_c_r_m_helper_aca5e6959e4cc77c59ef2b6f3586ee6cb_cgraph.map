@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.SetEntryUnsafe" name="SuiteCRMClient.clsSuiteCRMHelper.SetEntryUnsafe">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a7bbecd35543154e9785fcfd7788f54e8" title="Sets an entry in CRM and returns the id. &#39;Unsafe&#39; because if it fails (for whatever reason)..." alt="" coords="295,5,536,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a428cdd093678cff52df358c232c8350c" title="SuiteCRMClient.clsSuiteCRMHelper.\lSetEntry" alt="" coords="584,5,825,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="873,5,1115,47"/>
+</map>

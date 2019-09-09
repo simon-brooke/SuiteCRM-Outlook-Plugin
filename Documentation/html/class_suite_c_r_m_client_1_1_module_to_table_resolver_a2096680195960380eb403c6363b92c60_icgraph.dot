@@ -1,0 +1,11 @@
+digraph "SuiteCRMClient.ModuleToTableResolver.GetTableName"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SuiteCRMClient.ModuleToTable\lResolver.GetTableName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SuiteCRMClient.Email.Archiveable\lEmail.GetRelatedIds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#a321c7cc7188729f4e92ce4d984f18521",tooltip="Get related ids from the modules with these moduleKeys, of all email addresses in my From..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SuiteCRMClient.Email.Archiveable\lEmail.Save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#afb649e45ccb57d6a534c7386e479338c",tooltip="Save my email to CRM, and link it to these contact ids. "];
+}

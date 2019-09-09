@@ -1,0 +1,19 @@
+digraph "SuiteCRMAddIn.BusinessLogic.AppointmentsSynchroniser.SaveItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node52 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser.SaveItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node52 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::OutlookItemAdded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a03775a168642875a2b2beddea2b53e07",tooltip="#2246: Discriminate between calls and meetings when adding and updating. "];
+  Node52 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::OutlookItem\lChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a2c663aa2d9591ec7d39b61d3a64ec494",tooltip="#2246: Discriminate between calls and meetings when adding and updating. "];
+  Node52 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::EnsureSynchronisation\lPropertyForOutlookItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#aad2074df277464530c1033d685c1ffa1",tooltip="Ensure that this Outlook item has a property of this name with this value. "];
+  Node52 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SetOutlook\lItemDuration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#a7e127e7f6357d4f53b9b11a4750bb7c5",tooltip="Set this outlook item&#39;s duration, but also end time and location, from this CRM item. "];
+  Node52 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af2a70be2510b7075ead376292e280649",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+  Node52 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::UpdateOutlook\lDetails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#adf685ffeebddafbaffff8cff6c8521c1",tooltip="Update this Outlook appointment&#39;s start and duration from this CRM object. "];
+}

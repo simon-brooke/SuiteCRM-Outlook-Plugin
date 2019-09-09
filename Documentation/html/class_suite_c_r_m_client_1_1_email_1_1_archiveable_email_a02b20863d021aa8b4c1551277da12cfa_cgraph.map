@@ -1,0 +1,4 @@
+<map id="SuiteCRMClient.Email.ArchiveableEmail.Save" name="SuiteCRMClient.Email.ArchiveableEmail.Save">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#a8432205a44b9dd2f40679ed7d8b73a64" title="Get contact ids of all email addresses in my From, To, or CC fields which are known to CRM and not in..." alt="" coords="280,5,507,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="555,5,796,47"/>
+</map>

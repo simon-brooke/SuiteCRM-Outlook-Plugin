@@ -1,0 +1,7 @@
+<map id="SuiteCRMAddIn.BusinessLogic.RepeatingProcess.Stop" name="SuiteCRMAddIn.BusinessLogic.RepeatingProcess.Stop">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#aa335ddd9d301cfa4c127e795ec5beeb5" title="Prepare to shutdown all running processes. " alt="" coords="264,39,515,80"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_shutting_down_dialog.html#a30e50091326bca134b6e405c1f53ff34" title="Create a new instance of a ShuttingDownDialog with this number of tasks to complete. " alt="" coords="563,5,780,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a3d3136423943e3e4f71d3ea2b1062147" title="SuiteCRMAddIn.ThisAddIn.\lManualArchive" alt="" coords="579,71,763,112"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_suite_c_r_m_ribbon.html#af45e3d97607869f229558ab49c84379b" title="SuiteCRMAddIn.SuiteCRMRibbon.btn\lArchive_Action" alt="" coords="828,37,1073,79"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a4672086c412924ca3bf5c6aa52466c89" title="SuiteCRMAddIn.ThisAddIn.\lStartSynchronisationProcesses" alt="" coords="848,103,1053,144"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="SuiteCRMAddIn.Dialogs.ArchiveDialog.Search" name="SuiteCRMAddIn.Dialogs.ArchiveDialog.Search">
+<area shape="rect" id="node2" href="$struct_suite_c_r_m_add_in_1_1_wait_cursor.html#a7ba13e6acae32dbe5c97f21ba6c323b9" title="SuiteCRMAddIn.WaitCursor.For" alt="" coords="282,13,493,39"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a717fcb29df379f859e5bf91cbc1083c8" title="SuiteCRMClient.clsSuiteCRMHelper.\lGetEntryList" alt="" coords="556,92,797,133"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1cls_globals.html#afcc5dc742f8dabdeb434dfb493a9d191" title="SuiteCRMAddIn.clsGlobals.\lMySqlEscape" alt="" coords="294,115,481,156"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a6aaf13d4bb3d9a87db8540482a5e9754" title="Get the names of all the fields of the module with this name whose data type is char or varchar or na..." alt="" coords="267,180,508,221"/>
+<area shape="rect" id="node9" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a54a65e000ff00bb87a5e8bf5e2ef8d43" title="Find the fields, among the fields of this module, which are links and where the name of the relations..." alt="" coords="267,245,508,287"/>
+<area shape="rect" id="node10" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aedb6c3b87ff73bef81eb4cb8d16fe2ae" title="SuiteCRMClient.clsSuiteCRMHelper.\lGetValueByKey" alt="" coords="267,311,508,352"/>
+<area shape="rect" id="node11" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a3160bc88861f266746f9631068fc9ed7" title="SuiteCRMAddIn.Dialogs.Archive\lDialog.btnSearch_Click" alt="" coords="281,376,494,417"/>
+<area shape="rect" id="node3" href="$struct_suite_c_r_m_add_in_1_1_wait_cursor.html#a5a3235a0e82ff01664e64e15a542babc" title="SuiteCRMAddIn.WaitCursor.\lWaitCursor" alt="" coords="581,5,772,47"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="845,136,1087,177"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aae0adc545d51a81ed1297ceaa8b1522a" title="Get the module fields data for the module with this name, if any. " alt="" coords="556,180,797,221"/>
+</map>

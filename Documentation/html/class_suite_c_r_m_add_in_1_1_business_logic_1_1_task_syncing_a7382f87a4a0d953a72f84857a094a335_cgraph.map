@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.BusinessLogic.TaskSyncing.SyncFolder" name="SuiteCRMAddIn.BusinessLogic.TaskSyncing.SyncFolder">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#acc7036a95cd34952cf01c774b1fcefc2" title="Fetch records in pages from CRM, and merge them into Outlook. " alt="" coords="264,5,479,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a483e9fe3f7b8356dd85b53d7d4014f50" title="Given a list of items which exist in Outlook but are missing from CRM, resolve how to handle them..." alt="" coords="264,85,479,141"/>
+</map>

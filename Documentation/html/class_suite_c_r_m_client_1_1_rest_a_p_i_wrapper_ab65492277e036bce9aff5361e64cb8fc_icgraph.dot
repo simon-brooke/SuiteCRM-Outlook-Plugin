@@ -1,0 +1,41 @@
+digraph "SuiteCRMClient.RestAPIWrapper.GetUserId"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node161 [label="SuiteCRMClient.RestAPIWrapper.\lGetUserId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node161 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node162 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::AddOrUpdate\lItemFromOutlookToCrm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#aa990e13a654a72d865babd6be6eba8b2",tooltip="Add the item implied by this SyncState, which may not exist in CRM, to CRM. "];
+  Node161 -> Node163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node163 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af2a70be2510b7075ead376292e280649",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+  Node161 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node164 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.ConstructAnd\lDespatchCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a2cb7f84b824dca5501fb81201fc953a5",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+  Node161 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node165 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.GetEntriesPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a4173455a43277ae26f788a596f09a7d2",tooltip="Specialisation: also fetch names and email ids of recipients. "];
+  Node161 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node166 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.SetMeeting\lStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#abc806714ae71e8e7578c0615dc790de6"];
+  Node161 -> Node167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node167 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.OtherIteration\lActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a611349821f6a273683d93c8c0c41bf61"];
+  Node161 -> Node168 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node168 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.GetEntriesPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a1c05eaaf56c04964c20bc731c87c085b",tooltip="Fetch the page of entries from this module starting at this offset. "];
+  Node161 -> Node169 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node169 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.ShouldAddOrUpdate\lItemFromCrmToOutlook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#a7a8d7cc5f112b5ea52b4dcaab93e5254"];
+  Node161 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node170 [label="SuiteCRMAddIn.ProtoItems.\lProtoAppointment.ProtoAppointment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_appointment.html#a56c4e70b429d72160b4a250736945e3c",tooltip="Create a new instance of ProtoAppointment, taking values from this Outlook item. "];
+  Node161 -> Node171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node171 [label="SuiteCRMAddIn.ProtoItems.\lProtoAppointment.TryResolveOrganiser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_appointment.html#abe3c6168d09722cce4740bab0e165a44",tooltip="Try to resolve the organiser of this Outlook Item against the users of the CRM. "];
+  Node171 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 -> Node172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node172 [label="SuiteCRMAddIn.ProtoItems.\lProtoContact.AsNameValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_contact.html#a77aa596a0cd78986f7d88b8dc6b1f025"];
+  Node172 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 -> Node173 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node173 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.AsNameValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#a6c51bb46d6096970a17edbd0857e7fac",tooltip="Construct a name value list (to be serialised as JSON) representing this task. "];
+  Node173 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node174 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.ConstructAndDespatch\lCrmItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#ad265cd4e1c475793236468325a43f1e4",tooltip="Construct a JSON packet representing the Outlook item of this sync state, and despatch it to CRM..."];
+  Node173 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node175 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.Equals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#a2b1bdedb419b72c23c54796b65c7b0e6",tooltip="True if other is also a ProtoTask I have identically the same content as other. "];
+  Node173 -> Node176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 [label="SuiteCRMAddIn.ProtoItems.\lProtoTask.GetHashCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#ae0cfb00032214ff9e0b3a8280e3b93bf",tooltip="I&#39;m very like a dictionary constructed from my names/values, but not quite. "];
+  Node161 -> Node177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node177 [label="SuiteCRMClient.Email.Archiveable\lEmail.Save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_email_1_1_archiveable_email.html#afb649e45ccb57d6a534c7386e479338c",tooltip="Save my email to CRM, and link it to these contact ids. "];
+}

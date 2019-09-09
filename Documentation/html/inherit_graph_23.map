@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_exceptions_1_1_could_not_construct_query_exception.html" title="An exception thrown if a search query could not be constructed. " alt="" coords="133,5,360,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_my_exceptions.html" title="SuiteCRMClient.clsMyExceptions" alt="" coords="136,71,357,98"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1_crm_server_error_exception.html" title="An exception which wraps an eErrorValue object. " alt="" coords="155,123,339,164"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1_exceptions_1_1_crm_save_data_exception.html" title="SuiteCRMClient.Exceptions.\lCrmSaveDataException" alt="" coords="151,188,342,229"/>
+</map>

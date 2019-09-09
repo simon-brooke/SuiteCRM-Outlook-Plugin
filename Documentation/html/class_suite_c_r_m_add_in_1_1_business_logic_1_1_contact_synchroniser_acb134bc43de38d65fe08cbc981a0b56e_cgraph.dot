@@ -1,0 +1,10 @@
+digraph "SuiteCRMAddIn.BusinessLogic.ContactSynchroniser.SaveItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.SaveItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="SuiteCRMAddIn.BusinessLogic.\lErrorHandler.Handle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_error_handler.html#aa5ac5699b0099c7a812a895751df5e07"];
+  Node61 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

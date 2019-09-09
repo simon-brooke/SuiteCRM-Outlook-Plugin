@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.getRelationships" name="SuiteCRMClient.clsSuiteCRMHelper.getRelationships">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a5d2d80bf950c4a4fd241610e65bd4713" title="SuiteCRMAddIn.BusinessLogic.\lAppointmentSyncing.IsMatch" alt="" coords="313,5,523,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#af477f9f681874a701880737a2383b5fc" title="Synchronise items in the specified folder with the specified SuiteCRM module. " alt="" coords="312,71,524,112"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a7cee33973de0521341615a899e970cba" title="Action method of the thread. " alt="" coords="572,71,805,112"/>
+</map>

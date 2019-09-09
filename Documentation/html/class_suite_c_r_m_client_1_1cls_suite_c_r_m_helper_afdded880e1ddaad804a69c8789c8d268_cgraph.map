@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.TrySetRelationship" name="SuiteCRMClient.clsSuiteCRMHelper.TrySetRelationship">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a54a65e000ff00bb87a5e8bf5e2ef8d43" title="Find the fields, among the fields of this module, which are links and where the name of the relations..." alt="" coords="295,5,536,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aae0adc545d51a81ed1297ceaa8b1522a" title="Get the module fields data for the module with this name, if any. " alt="" coords="584,5,825,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="873,5,1115,47"/>
+</map>

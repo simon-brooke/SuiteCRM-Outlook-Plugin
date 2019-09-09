@@ -1,0 +1,11 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.GetActivitiesLinks" name="SuiteCRMClient.clsSuiteCRMHelper.GetActivitiesLinks">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a1b2d6e63a13ef6a7a3331a99cbd122e7" title="SuiteCRMAddIn.Dialogs.Archive\lDialog.Search" alt="" coords="309,5,522,47"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#afdded880e1ddaad804a69c8789c8d268" title="The protocols for how link fields are named vary. Try the most likely two possibilities, and log failures. " alt="" coords="295,77,536,119"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a3160bc88861f266746f9631068fc9ed7" title="SuiteCRMAddIn.Dialogs.Archive\lDialog.btnSearch_Click" alt="" coords="606,5,819,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a1f34c87c999c13b787aab281472014cd" title="Clean up any resources being used. " alt="" coords="901,5,1115,47"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a0e634b04d9750379118745f192d75a53" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.CreateEmailRelationship\lOrFail" alt="" coords="584,70,841,126"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a8f51774a4b5d0dcd199c7a5b72ea4096" title="Sets a CRM relationship and returns boolean success. &#39;Unsafe&#39; because most callers ignore the result..." alt="" coords="592,149,833,191"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a0dcfbb2286b3d50c3ea8863705b19501" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.ArchiveEmailWith\lEntityRelationships" alt="" coords="899,70,1117,126"/>
+<area shape="rect" id="node9" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a5d2d80bf950c4a4fd241610e65bd4713" title="SuiteCRMAddIn.BusinessLogic.\lAppointmentSyncing.IsMatch" alt="" coords="903,149,1113,191"/>
+<area shape="rect" id="node10" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_syncing.html#a20441ed5d82c529e624bba3ef7571e36" title="SuiteCRMAddIn.BusinessLogic.\lContactSyncing.ConstructSyncState" alt="" coords="889,215,1127,256"/>
+</map>

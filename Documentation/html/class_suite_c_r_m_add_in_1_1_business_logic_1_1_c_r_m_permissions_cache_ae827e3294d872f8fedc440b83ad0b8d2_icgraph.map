@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.BusinessLogic.CRMPermissionsCache.HasAccess" name="SuiteCRMAddIn.BusinessLogic.CRMPermissionsCache.HasAccess">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_c_r_m_permissions_cache.html#ae9c79ed281f1327a689fdd041641b947" title="Check whether my synchroniser is allowed import access for the specified CRM module. " alt="" coords="289,13,561,54"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_c_r_m_permissions_cache.html#a042a30c67613cb37d8f3d001bccdd032" title="Check whether my synchroniser is allowed export access for the specified CRM module. " alt="" coords="288,78,561,119"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_c_r_m_permissions_cache.html#a9228e56ed8852ceb135b9835b52e025c" title="Check whether my synchroniser is allowed both import and export access for the specified CRM module..." alt="" coords="609,5,876,61"/>
+</map>

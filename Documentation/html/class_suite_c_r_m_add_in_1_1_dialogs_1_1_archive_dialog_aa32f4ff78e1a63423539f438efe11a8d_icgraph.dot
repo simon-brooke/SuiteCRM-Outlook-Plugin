@@ -1,0 +1,14 @@
+digraph "SuiteCRMAddIn.Dialogs.ArchiveDialog.Search"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node66 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.Search",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node66 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.ArchiveDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a6207d7b9b5b9c52e7834a3d5415a9c21"];
+  Node66 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.btnSearch_Click",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a3160bc88861f266746f9631068fc9ed7"];
+  Node68 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="SuiteCRMAddIn.Dialogs.Archive\lDialog.Dispose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html#a1f34c87c999c13b787aab281472014cd",tooltip="Clean up any resources being used. "];
+}

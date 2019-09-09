@@ -1,0 +1,27 @@
+digraph "SuiteCRMAddIn.BusinessLogic.SyncStateManager.GetSynchronisedItems"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node49 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.GetSynchronisedItems",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node49 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af2a70be2510b7075ead376292e280649",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+  Node49 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="SuiteCRMAddIn.BusinessLogic.\lContactSynchroniser.SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_synchroniser.html#a54c91cd5a2923d068fb9d6e39393aa2d",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+  Node49 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.OtherIteration\lActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a611349821f6a273683d93c8c0c41bf61"];
+  Node49 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.GetSynchronisedItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a144c42ce6181fbb0cdfb85dd84c4c08b"];
+  Node49 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.FindMatches",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a1cc49b75450a21630b653286b3743514",tooltip="Find any existing Outlook items which appear to be identical to this CRM item. "];
+  Node49 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.RemoveDeletedItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a57e4fb41a00d48f5ef683b694763473b",tooltip="Deal, in CRM, with items deleted in Outlook. "];
+  Node49 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="SuiteCRMAddIn.BusinessLogic.\lSynchroniser.ResolveUnmatchedItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a2770863b6c4065b62d5fb72abd0927d3",tooltip="Given a list of items which exist in Outlook but are missing from CRM, resolve how to handle them..."];
+  Node49 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.BruteForceSaveAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state_manager.html#a6e1782c610f0a61313e42209214e2129",tooltip="This is part of an attempt to stop the &#39;do you want to save&#39; popups; save everything we&#39;ve touched..."];
+  Node57 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="SuiteCRMAddIn.ThisAddIn.\lManualArchive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a3d3136423943e3e4f71d3ea2b1062147"];
+  Node49 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSynchroniser.SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_synchroniser.html#ae48c8a0a710dad553c6b635279a55adb",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+}

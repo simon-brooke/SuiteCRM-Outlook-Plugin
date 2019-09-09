@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.Log4NetLogger" name="SuiteCRMAddIn.Log4NetLogger">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_logging_1_1_abstract_logger.html" title="Provides a common implementation of ShowAndAddEntry for implementations of ILogger. " alt="" coords="25,155,195,196"/>
+<area shape="rect" id="node3" href="$interface_suite_c_r_m_client_1_1_logging_1_1_i_logger.html" title="Interface implemented by all logging classes " alt="" coords="77,80,143,107"/>
+</map>

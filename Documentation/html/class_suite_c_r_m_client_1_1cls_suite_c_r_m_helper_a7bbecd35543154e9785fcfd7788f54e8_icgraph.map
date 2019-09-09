@@ -1,0 +1,7 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.SetEntryUnsafe" name="SuiteCRMClient.clsSuiteCRMHelper.SetEntryUnsafe">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#aedf9bb06e59be22da446a8c56d5c52c1" title="Construct a JSON packet representing this Outlook item, and despatch it to CRM. " alt="" coords="309,5,535,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_syncing.html#a0da78ea432c0dd09442d19ec02b4c3b5" title="Construct a JSON packet representing this Outlook item, and despatch it to CRM. " alt="" coords="295,85,549,141"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a3df7723090576b81797aa38a31eb67aa" title="Remove the item implied by this sync state from CRM. " alt="" coords="306,165,538,221"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_syncing.html#a5ffca39ee66e0c50f42ea434e3f9af9d" title="Construct a JSON packet representing this Outlook item, and despatch it to CRM. " alt="" coords="303,245,541,301"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#aca5e6959e4cc77c59ef2b6f3586ee6cb" title="Sets an entry in CRM and returns the id. &#39;Unsafe&#39; because if it fails (for whatever reason)..." alt="" coords="301,325,543,366"/>
+</map>

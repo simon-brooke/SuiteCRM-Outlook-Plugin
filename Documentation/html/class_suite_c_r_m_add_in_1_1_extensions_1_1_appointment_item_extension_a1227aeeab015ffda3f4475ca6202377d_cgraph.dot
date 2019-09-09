@@ -1,0 +1,13 @@
+digraph "SuiteCRMAddIn.Extensions.AppointmentItemExtension.SetCrmId"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="SuiteCRMAddIn.Extensions.\lAppointmentItemExtension.SetCrmId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsInvalid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#ae6aff08aa08be622c672dc507d331118",tooltip="True if CrmId.IsValid(CrmId) is false of this id. "];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a753d936c4867f81d95032490ff89cd48",tooltip="Validates a CRM id. "];
+  Node18 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.ToString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#ae39696f7859e5917afcba56aefeca1d1"];
+}

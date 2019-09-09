@@ -1,0 +1,13 @@
+digraph "SuiteCRMClient.RestAPIWrapper.TrySetRelationship"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node238 [label="SuiteCRMClient.RestAPIWrapper.\lTrySetRelationship",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node238 -> Node239 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node239 [label="SuiteCRMClient.RestAPIWrapper.\lGetActivitiesLinks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#accf4001b77548d304c053979873b00b6",tooltip="Find the fields, among the fields of this module, which are links and where the name of the relations..."];
+  Node239 -> Node240 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node240 [label="SuiteCRMClient.RestAPIWrapper.\lGetFieldsForModule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#aeed0498f3c1d258392df1bfe2688e5a1",tooltip="Get the module fields data for the module with this name, if any. "];
+  Node240 -> Node241 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node241 [label="SuiteCRMClient.RestAPIWrapper.\lEnsureLoggedIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a47fa9bef59b59f02817a631b33a61a35"];
+}

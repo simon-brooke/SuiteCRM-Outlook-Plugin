@@ -1,0 +1,4 @@
+var namespace_suite_c_r_m_add_in_1_1_daemon_1_1_tests =
+[
+    [ "FetchEmailCategoriesActionTests", "class_suite_c_r_m_add_in_1_1_daemon_1_1_tests_1_1_fetch_email_categories_action_tests.html", "class_suite_c_r_m_add_in_1_1_daemon_1_1_tests_1_1_fetch_email_categories_action_tests" ]
+];

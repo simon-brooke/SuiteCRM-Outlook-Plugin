@@ -1,0 +1,5 @@
+<map id="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.AddOrUpdateItemFromCrmToOutlook" name="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.AddOrUpdateItemFromCrmToOutlook">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a3b36dda96fe8a94bf705c125ab2ff7a7" title="Get a date stamp for midnight five days ago (why?). " alt="" coords="304,5,536,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a22031f77a31ab4d27818815ebc85786d" title="Get the existing sync state representing this item, if it exists, else null. " alt="" coords="304,85,536,141"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a9e06c6056beacdb87f5d807f4739b9ba" title="Find any existing Outlook items which appear to be identical to this CRM item. " alt="" coords="304,165,536,221"/>
+</map>

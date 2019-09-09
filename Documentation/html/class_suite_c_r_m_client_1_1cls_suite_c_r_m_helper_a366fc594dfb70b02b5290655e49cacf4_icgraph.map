@@ -1,0 +1,5 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.GetSugarFields" name="SuiteCRMClient.clsSuiteCRMHelper.GetSugarFields">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#af477f9f681874a701880737a2383b5fc" title="Synchronise items in the specified folder with the specified SuiteCRM module. " alt="" coords="305,5,517,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#acc7036a95cd34952cf01c774b1fcefc2" title="Fetch records in pages from CRM, and merge them into Outlook. " alt="" coords="295,70,527,126"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a7cee33973de0521341615a899e970cba" title="Action method of the thread. " alt="" coords="575,5,808,47"/>
+</map>

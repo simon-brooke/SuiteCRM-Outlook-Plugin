@@ -1,0 +1,12 @@
+<map id="SuiteCRMAddIn.SuiteCRMRibbon.btnArchive_Action" name="SuiteCRMAddIn.SuiteCRMRibbon.btnArchive_Action">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a3d3136423943e3e4f71d3ea2b1062147" title="SuiteCRMAddIn.ThisAddIn.\lManualArchive" alt="" coords="299,169,483,211"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8052836bf64ac24c9334d6ac28ec967e" title="SuiteCRMAddIn.ThisAddIn.\lShowArchiveForm" alt="" coords="564,5,748,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_client_1_1_user_session.html#a61cf62b4a67202acf08a834cbe44c5ab" title="The documentation at http://support.sugarcrm.com/Documentation/Sugar_Developer/Sugar_Developer_Guide_..." alt="" coords="556,71,756,112"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#aa335ddd9d301cfa4c127e795ec5beeb5" title="Prepare to shutdown all running processes. " alt="" coords="531,136,781,177"/>
+<area shape="rect" id="node9" href="$class_suite_c_r_m_add_in_1_1_ribbon_image_helper.html#ab6c37f7066ccafd90143fe3803cb3c8b" title="SuiteCRMAddIn.RibbonImage\lHelper.Convert" alt="" coords="557,201,755,243"/>
+<area shape="rect" id="node10" href="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a241a0e53ef17a70dfa4b991bce8df910" title="SuiteCRMAddIn.ThisAddIn.\lShowSettingsForm" alt="" coords="564,267,748,308"/>
+<area shape="rect" id="node11" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_email_archiving.html#a28d7941e33b094c344e5691a1a6be644" title="SuiteCRMAddIn.BusinessLogic.\lEmailArchiving.ProcessEligibleNew\lMailItem" alt="" coords="541,331,771,387"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a75baab6367c7ce36a63695d23a646c95" title="Put me into a mode where I finish all the work I have to do quickly. " alt="" coords="829,104,1065,145"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a1484b532908abdfad6640cc758cd2f37" title="Stop me at the end of my current iteration; does not force an immediate stop unless no work is curren..." alt="" coords="842,169,1053,211"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_repeating_process.html#a13a459becdd7115fdd3af289318e74b7" title="Do whatever it is I do, once. " alt="" coords="1113,104,1340,145"/>
+</map>

@@ -1,0 +1,24 @@
+digraph "SuiteCRMAddIn.ThisAddIn.ManualSyncContact"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node55 [label="SuiteCRMAddIn.ThisAddIn.\lManualSyncContact",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node55 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="SuiteCRMAddIn.BusinessLogic.\lErrorHandler.Handle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_error_handler.html#aa5ac5699b0099c7a812a895751df5e07"];
+  Node56 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="SuiteCRMAddIn.RibbonImage\lHelper.Convert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_ribbon_image_helper.html#ab6c37f7066ccafd90143fe3803cb3c8b"];
+  Node55 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="SuiteCRMAddIn.ThisAddIn.\lSuiteCRMAuthenticate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a7079a786abcf4e8a54fe271e79838ff1"];
+  Node55 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="SuiteCRMAddIn.ThisAddIn.\lShowReconfigureOrDisable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a5a59515dac58ee4eb1169adf2f3d597b",tooltip="Show the reconfigure or disable dialogue with this summary of the problem. "];
+  Node59 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="SuiteCRMAddIn.ThisAddIn.\lShowSettingsForm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8e4511bd9e35cdd0b86024d96341990b"];
+  Node55 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="SuiteCRMAddIn.Daemon.Daemon\lWorker.AddTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_daemon_1_1_daemon_worker.html#a759291681be3f2fd27ee7e82f0547fb6",tooltip="Add a task to my queue. "];
+  Node55 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="SuiteCRMAddIn.ThisAddIn.\lStartConfiguredSynchronisation\lProcesses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a64093b46d58d23f3bb0e866e299745ba",tooltip="Start all synchronisation processes that are configured, if they are not already running. "];
+  Node55 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="SuiteCRMAddIn.ThisAddIn.\lDisable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a98cbecd9f92c5928ca248bc4b40b6b62"];
+}

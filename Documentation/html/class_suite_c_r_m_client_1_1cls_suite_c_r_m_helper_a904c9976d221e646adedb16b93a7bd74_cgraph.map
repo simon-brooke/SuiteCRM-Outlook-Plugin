@@ -1,0 +1,4 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.EnsureLoggedIn" name="SuiteCRMClient.clsSuiteCRMHelper.EnsureLoggedIn">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1_user_session.html#a8382d9c050d8e5da8924dc536cd03245" title="Logs in to the CRM server. " alt="" coords="295,5,495,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1_user_session.html#a85104699962c1ee8d45e5659237661e7" title="Authenticate against LDAP using my configured credentials. " alt="" coords="543,5,743,47"/>
+</map>

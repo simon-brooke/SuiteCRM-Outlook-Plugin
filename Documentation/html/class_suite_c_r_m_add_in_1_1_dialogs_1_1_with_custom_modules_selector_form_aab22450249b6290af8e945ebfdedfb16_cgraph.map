@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.Dialogs.WithCustomModulesSelectorForm.PopulateCustomModulesListView" name="SuiteCRMAddIn.Dialogs.WithCustomModulesSelectorForm.PopulateCustomModulesListView">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#afd19c20b8c3d82655e35d46d7829197f" title="Get the list of modules installed in the connected CRM instance, with their associated access control..." alt="" coords="304,13,545,54"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="593,13,835,54"/>
+</map>

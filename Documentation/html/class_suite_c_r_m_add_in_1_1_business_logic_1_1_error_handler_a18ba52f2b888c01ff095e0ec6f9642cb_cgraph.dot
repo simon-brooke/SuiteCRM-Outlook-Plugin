@@ -1,0 +1,13 @@
+digraph "SuiteCRMAddIn.BusinessLogic.ErrorHandler.Handle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node62 [label="SuiteCRMAddIn.BusinessLogic.\lErrorHandler.Handle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="SuiteCRMAddIn.ThisAddIn.\lShowReconfigureOrDisable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a5a59515dac58ee4eb1169adf2f3d597b",tooltip="Show the reconfigure or disable dialogue with this summary of the problem. "];
+  Node63 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="SuiteCRMAddIn.ThisAddIn.\lShowSettingsForm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a8e4511bd9e35cdd0b86024d96341990b"];
+  Node62 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="SuiteCRMAddIn.ThisAddIn.\lDisable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_this_add_in.html#a98cbecd9f92c5928ca248bc4b40b6b62"];
+}

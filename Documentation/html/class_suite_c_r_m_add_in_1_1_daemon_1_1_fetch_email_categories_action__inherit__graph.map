@@ -1,0 +1,4 @@
+<map id="SuiteCRMAddIn.Daemon.FetchEmailCategoriesAction" name="SuiteCRMAddIn.Daemon.FetchEmailCategoriesAction">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_daemon_1_1_abstract_daemon_action.html" title="The Attempts/MaxAttempts plumbing for implementing a DaemonAction. Of course, you do not need to spec..." alt="" coords="30,80,187,107"/>
+<area shape="rect" id="node3" href="$interface_suite_c_r_m_add_in_1_1_daemon_1_1_daemon_action.html" title="An action to be queued and performed by the DaemonWorker." alt="" coords="55,5,163,32"/>
+</map>

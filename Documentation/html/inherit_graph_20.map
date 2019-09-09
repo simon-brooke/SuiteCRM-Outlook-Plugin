@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_archive_dialog.html" title="SuiteCRMAddIn.Dialogs.Archive\lDialog" alt="" coords="118,5,331,47"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_custom_modules_dialog.html" title="SuiteCRMAddIn.Dialogs.Custom\lModulesDialog" alt="" coords="117,71,332,112"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1frm_address_book.html" title="SuiteCRMAddIn.Dialogs.frm\lAddressBook" alt="" coords="131,136,319,177"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_reconfigure_or_disable_dialog.html" title="A simple dialog asking the user whether they wish to reconfigure or disable the add in following a li..." alt="" coords="105,201,344,243"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_settings_dialog.html" title="SuiteCRMAddIn.Dialogs.Settings\lDialog" alt="" coords="116,267,333,308"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_shutting_down_dialog.html" title="SuiteCRMAddIn.Dialogs.Shutting\lDownDialog" alt="" coords="116,332,333,373"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_dialogs_1_1_with_custom_modules_selector_form.html" title="Both CustomModulesDialog and ArchiveDialog use a custom modules selector, which each was building in ..." alt="" coords="127,397,323,439"/>
+</map>

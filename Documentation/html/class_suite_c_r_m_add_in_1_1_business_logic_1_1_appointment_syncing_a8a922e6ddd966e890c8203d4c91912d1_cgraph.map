@@ -1,0 +1,9 @@
+<map id="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.EnsureSynchronisationPropertiesForOutlookItem" name="SuiteCRMAddIn.BusinessLogic.AppointmentSyncing.EnsureSynchronisationPropertiesForOutlookItem">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a778c161dea3f5934089e5866b59f9dad" title="Ensure that this Outlook item has a property of this name with this value. " alt="" coords="333,115,613,171"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a7a750ce308027fee659e8c543cb99b42" title="SuiteCRMAddIn.BusinessLogic.\lAppointmentSyncing.SaveItem" alt="" coords="689,5,900,47"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointment_syncing.html#a505217ef3946d0f9996301472cabc026" title="Log a message regarding this Outlook appointment. " alt="" coords="981,35,1212,76"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a050637c0cbd1012cf9cf58c5cb3d179c" title="Return the CRM id of the current user. " alt="" coords="674,123,915,164"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a3ce19594e2c04282ab6e9737c3a9b84f" title="SuiteCRMClient.clsSuiteCRMHelper.get\lRelationship" alt="" coords="665,188,924,229"/>
+<area shape="rect" id="node8" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a9a2c3473c4dc60793fed0588c66f8666" title="Parse a date time object from a user property, assuming the ISO 8601 date&#45;time format but ommitting t..." alt="" coords="661,253,928,309"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_client_1_1cls_suite_c_r_m_helper.html#a80f04ec3ab185a736b6633c0df69c536" title="SuiteCRMClient.clsSuiteCRMHelper.\lEnsureLoggedIn" alt="" coords="976,188,1217,229"/>
+</map>

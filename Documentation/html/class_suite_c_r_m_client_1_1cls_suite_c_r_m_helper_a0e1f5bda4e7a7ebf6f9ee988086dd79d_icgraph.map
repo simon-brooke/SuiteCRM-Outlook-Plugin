@@ -1,0 +1,8 @@
+<map id="SuiteCRMClient.clsSuiteCRMHelper.SetNameValuePair" name="SuiteCRMClient.clsSuiteCRMHelper.SetNameValuePair">
+<area shape="rect" id="node2" href="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_synchroniser.html#a3df7723090576b81797aa38a31eb67aa" title="Remove the item implied by this sync state from CRM. " alt="" coords="295,5,527,61"/>
+<area shape="rect" id="node3" href="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_appointment.html#a98c232151162aef4b32084ca5648cf4c" title="SuiteCRMAddIn.ProtoItems.\lProtoAppointment.AsNameValues" alt="" coords="300,85,521,126"/>
+<area shape="rect" id="node4" href="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_contact.html#a491dedc0d84e767185d36c92638ae94e" title="SuiteCRMAddIn.ProtoItems.\lProtoContact.AsNameValues" alt="" coords="313,150,508,191"/>
+<area shape="rect" id="node5" href="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#adcb8a1086d740e37605bee0eefb2c45e" title="Construct a name value list (to be serialised as JSON) representing this task. " alt="" coords="316,215,505,257"/>
+<area shape="rect" id="node6" href="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#a2b1bdedb419b72c23c54796b65c7b0e6" title="True if other is also a ProtoTask I have identically the same content as other. " alt="" coords="575,182,764,223"/>
+<area shape="rect" id="node7" href="$class_suite_c_r_m_add_in_1_1_proto_items_1_1_proto_task.html#ae0cfb00032214ff9e0b3a8280e3b93bf" title="I&#39;m very like a dictionary constructed from my names/values, but not quite. " alt="" coords="575,247,764,289"/>
+</map>

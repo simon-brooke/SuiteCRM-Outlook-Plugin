@@ -1,0 +1,11 @@
+digraph "SuiteCRMAddIn.Helpers.LicenceValidationHelper.NeedNotRevlidate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="SuiteCRMAddIn.Helpers.Licence\lValidationHelper.NeedNotRevlidate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SuiteCRMAddIn.Helpers.Licence\lValidationHelper.Validate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_helpers_1_1_licence_validation_helper.html#ad940fcca799f5eb17338aa71ee8a3753",tooltip="Validate my key pair. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SuiteCRMAddIn.BusinessLogic.\lTests.LicenceValidationHelperTests.\lLicenceValidationHelperValidateTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_tests_1_1_licence_validation_helper_tests.html#a99b34331b764d9dc42f1cd52f818bf9b"];
+}

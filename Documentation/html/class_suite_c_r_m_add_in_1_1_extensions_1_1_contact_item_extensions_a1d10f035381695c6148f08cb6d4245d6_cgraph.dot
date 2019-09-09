@@ -1,0 +1,17 @@
+digraph "SuiteCRMAddIn.Extensions.ContactItemExtensions.ChangeCrmId"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SuiteCRMAddIn.Extensions.\lContactItemExtensions.ChangeCrmId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.GetExistingSyncState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_sync_state_manager.html#a1be6c51a0b433eb8ae2ffa27f5cc1325",tooltip="Get the existing sync state for this CRM item, if it exists, else null. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SuiteCRMClient.RESTObjects.\lEntryValue.GetValueAsString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_entry_value.html#a6ff81b41c04d9c891efbafabc25f335f"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SuiteCRMClient.RESTObjects.\lEntryValue.GetValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_r_e_s_t_objects_1_1_entry_value.html#a7dc773cb8764db461f60ceab15bb6377"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a4c42d534f0f83aa65403c2c8e06dc5d1",tooltip="Get the single CrmId instance for this value. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId.IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html#a753d936c4867f81d95032490ff89cd48",tooltip="Validates a CRM id. "];
+}

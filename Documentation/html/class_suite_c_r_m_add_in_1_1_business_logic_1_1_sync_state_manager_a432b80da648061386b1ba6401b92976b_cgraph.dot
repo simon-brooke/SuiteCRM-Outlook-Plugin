@@ -1,0 +1,15 @@
+digraph "SuiteCRMAddIn.BusinessLogic.SyncStateManager.GetExistingSyncState"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="SuiteCRMAddIn.BusinessLogic.\lSyncStateManager.GetExistingSyncState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="SuiteCRMAddIn.BusinessLogic.\lCallSyncState.GetDistinctFields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_call_sync_state.html#a1f6c5fa92653ee67704851c9fcd300bb",tooltip="Get a string representing the values of the distinct fields of this crmItem, as a final fallback for ..."];
+  Node27 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="SuiteCRMAddIn.BusinessLogic.\lContactSyncState.GetDistinctFields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_contact_sync_state.html#a38280c31098bbad4f4a4bb0eee98ccda",tooltip="Get a string representing the values of the distinct fields of this crmItem, as a final fallback for ..."];
+  Node27 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingSyncState.GetDistinctFields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meeting_sync_state.html#acc77dacadac42920c4700d5a47e4b69d",tooltip="Get a string representing the values of the distinct fields of this crmItem, as a final fallback for ..."];
+  Node27 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="SuiteCRMAddIn.BusinessLogic.\lTaskSyncState.GetDistinctFields",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_task_sync_state.html#a286156d777691b49c0df388664fba611",tooltip="Get a string representing the values of the distinct fields of this crmItem, as a final fallback for ..."];
+}

@@ -1,0 +1,11 @@
+digraph "SuiteCRMAddIn.BusinessLogic.AppointmentsSynchroniser&lt; SyncStateType &gt;.AddressResolutionData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< SyncStateType \>.AddressResolutionData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ModuleId" ,fontname="Helvetica"];
+  Node2 [label="SuiteCRMAddIn.BusinessLogic.\lCrmId",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_crm_id.html",tooltip="A validated CRM id. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="IComparable",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Empty" ,fontname="Helvetica"];
+}

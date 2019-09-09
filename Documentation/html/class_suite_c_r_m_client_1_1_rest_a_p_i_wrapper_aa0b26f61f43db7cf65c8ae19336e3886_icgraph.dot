@@ -1,0 +1,15 @@
+digraph "SuiteCRMClient.RestAPIWrapper.GetRelationships"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node145 [label="SuiteCRMClient.RestAPIWrapper.\lGetRelationships",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node145 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="SuiteCRMAddIn.BusinessLogic.\lAppointmentsSynchroniser\l\< MeetingSyncState \>::SyncFolder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_appointments_synchroniser.html#af2a70be2510b7075ead376292e280649",tooltip="Synchronise items in the specified folder with the specified SuiteCRM module. "];
+  Node145 -> Node147 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="SuiteCRMClient.RestAPIWrapper.\lGetRelationship",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_client_1_1_rest_a_p_i_wrapper.html#a1e5aa8d2efc737faddfd21d64bc54a04"];
+  Node147 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.SetOutlook\lRecipientsFromCRM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a2d11d345708fd85c9eabc30f862b8238",tooltip="Set up the recipients of the appointment represented by this olItem from this crmItem. "];
+  Node148 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node149 [label="SuiteCRMAddIn.BusinessLogic.\lMeetingsSynchroniser.UpdateOutlook\lDetails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_suite_c_r_m_add_in_1_1_business_logic_1_1_meetings_synchroniser.html#a8f0c99c95424ef0b2514bd3dfccda977"];
+}
